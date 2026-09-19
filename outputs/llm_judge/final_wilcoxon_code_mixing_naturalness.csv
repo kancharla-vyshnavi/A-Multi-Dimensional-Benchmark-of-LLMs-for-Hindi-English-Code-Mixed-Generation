@@ -1,0 +1,7 @@
+criterion,model1,model2,N,W,raw_p,Holm_p
+code_mixing_naturalness,HingGPT,Phi-3.5-mini,34,60.0,0.1345255075435559,0.2690510150871118
+code_mixing_naturalness,HingGPT,Qwen2.5-3B,34,24.5,0.00014514954553813817,0.0005805981821525527
+code_mixing_naturalness,HingGPT,Qwen2.5-7B,34,0.0,1.3493733270227875e-05,8.096239962136725e-05
+code_mixing_naturalness,Phi-3.5-mini,Qwen2.5-3B,34,27.0,0.0018044059916144366,0.00541321797484331
+code_mixing_naturalness,Phi-3.5-mini,Qwen2.5-7B,34,14.0,4.548618443492331e-05,0.00022743092217461654
+code_mixing_naturalness,Qwen2.5-3B,Qwen2.5-7B,34,152.0,0.36694837989132767,0.36694837989132767

@@ -1,0 +1,2 @@
+model,validation_samples,generation_samples,max_length,max_new_tokens,batch_size,temperature,top_p,repetition_penalty,use_cache,validation_loss,perplexity,distinct_1,distinct_2,repetition_rate,generation_time_seconds
+Qwen2.5-7B,14601,1000,128,50,4,0.7,0.9,1.1,False,4.009676146214122,55.12901393227741,0.34009185069376585,0.8531949866447504,0.033221094669556445,1358.3821341991425

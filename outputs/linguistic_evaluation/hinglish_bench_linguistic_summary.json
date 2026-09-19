@@ -1,0 +1,42 @@
+[
+  {
+    "model": "hinggpt",
+    "samples": 34,
+    "avg_CMI": 10.136623964699105,
+    "avg_M_index": 0.10136623964699103,
+    "avg_SyMCoM": 0.17400754210955055,
+    "avg_hindi_ratio": 0.10136623964699103,
+    "avg_english_ratio": 0.8398102309412442,
+    "total_switches": 451
+  },
+  {
+    "model": "phi35_mini",
+    "samples": 34,
+    "avg_CMI": 21.28857707229199,
+    "avg_M_index": 0.21288577072291992,
+    "avg_SyMCoM": 0.29107753557659793,
+    "avg_hindi_ratio": 0.21288577072291992,
+    "avg_english_ratio": 0.7871142292770801,
+    "total_switches": 668
+  },
+  {
+    "model": "qwen25_3b",
+    "samples": 34,
+    "avg_CMI": 11.776343073457799,
+    "avg_M_index": 0.11776343073457797,
+    "avg_SyMCoM": 0.18488813235433169,
+    "avg_hindi_ratio": 0.1313857217562498,
+    "avg_english_ratio": 0.7215554547143385,
+    "total_switches": 251
+  },
+  {
+    "model": "qwen25_7b",
+    "samples": 34,
+    "avg_CMI": 15.13800858793859,
+    "avg_M_index": 0.1513800858793859,
+    "avg_SyMCoM": 0.22859684043511333,
+    "avg_hindi_ratio": 0.15777394777196901,
+    "avg_english_ratio": 0.6657554639927369,
+    "total_switches": 278
+  }
+]

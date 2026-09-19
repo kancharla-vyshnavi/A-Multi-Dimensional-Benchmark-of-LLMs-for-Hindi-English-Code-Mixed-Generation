@@ -1,0 +1,16 @@
+{
+  "dataset": "L3Cube-HingCorpus validation subset",
+  "samples": 14601,
+  "total_tokens": 293274,
+  "hindi_tokens": 0,
+  "english_tokens": 263276,
+  "other_tokens": 29998,
+  "overall_hindi_ratio": 0.0,
+  "overall_english_ratio": 1.0,
+  "average_sample_hindi_ratio": 0.0,
+  "average_sample_english_ratio": 0.9992466269433601,
+  "overall_cmi": 0.0,
+  "average_sample_cmi": 0.0,
+  "total_code_switches": 0,
+  "average_code_switches_per_sample": 0.0
+}

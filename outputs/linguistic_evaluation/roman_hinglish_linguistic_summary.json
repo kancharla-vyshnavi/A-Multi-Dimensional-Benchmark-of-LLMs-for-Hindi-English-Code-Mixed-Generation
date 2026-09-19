@@ -1,0 +1,17 @@
+{
+  "model": "l3cube-pune/hing-bert-lid",
+  "validation_samples": 14601,
+  "total_tokens": 286589,
+  "hindi_tokens": 165120,
+  "english_tokens": 121469,
+  "other_tokens": 0,
+  "overall_hindi_ratio": 0.5761560981056496,
+  "overall_english_ratio": 0.42384390189435045,
+  "overall_cmi": 42.38439018943504,
+  "average_sentence_cmi": 26.102397480950028,
+  "mixed_sentences": 14140,
+  "monolingual_sentences": 461,
+  "mixed_sentence_percentage": 96.84268200808164,
+  "total_switches": 74782,
+  "average_switches_per_sentence": 5.1217039928772
+}

@@ -1,0 +1,2 @@
+Model,Validation Samples,Generation Samples,Max Length,Max New Tokens,Batch Size,Temperature,Top-p,Repetition Penalty,Validation Loss,Perplexity,Distinct-1,Distinct-2,Repetition Rate,Validation Time,Generation Time
+Qwen2.5-3B,14601,1000,128,50,4,0.7,0.9,1.1,4.304361480464407,74.02193590785879,0.2569495764879768,0.7777710807064071,0.05445966687510659,1645.965668439865,4627.56310749054
