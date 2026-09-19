@@ -1,6 +1,5 @@
 ﻿# A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation
-# A Multi-Dimensional Benchmark of LLMs for Hindi-English Code-Mixed Generation
-
+ 
 A reproducible benchmark for evaluating Large Language Models (LLMs) on Hindi-English code-mixed text generation using automatic generation metrics, linguistic measures, LLM-as-a-Judge evaluation, pairwise comparison, error analysis, and statistical significance testing.
 
 ## Overview
