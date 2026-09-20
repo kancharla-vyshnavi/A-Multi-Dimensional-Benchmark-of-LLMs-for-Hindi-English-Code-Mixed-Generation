@@ -1,5 +1,0 @@
-﻿model,pairwise_wins,pairwise_losses,pairwise_ties,total_pairwise_comparisons,win_percent,loss_percent,tie_percent
-HingGPT,52,113,21,186,27.96,60.75,11.29
-Phi-3.5-mini,37,128,15,180,20.56,71.11,8.33
-Qwen2.5-3B,37,128,23,188,19.68,68.09,12.23
-Qwen2.5-7B,39,126,19,184,21.2,68.48,10.33

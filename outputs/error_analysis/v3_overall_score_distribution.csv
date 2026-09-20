@@ -1,0 +1,12 @@
+model,overall,count
+HingGPT,2.0,17
+HingGPT,3.0,9
+HingGPT,4.0,2
+Phi-3.5-mini,3.0,3
+Phi-3.5-mini,4.0,31
+Qwen2.5-3B,2.0,3
+Qwen2.5-3B,3.0,4
+Qwen2.5-3B,4.0,26
+Qwen2.5-7B,3.0,5
+Qwen2.5-7B,4.0,28
+Qwen2.5-7B,5.0,1

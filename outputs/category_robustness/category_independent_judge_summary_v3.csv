@@ -1,0 +1,33 @@
+category,category_name,model,fluency_mean,code_mixing_naturalness_mean,hindi_grammar_mean,prompt_adherence_mean,spelling_consistency_mean,overall_mean,fluency_valid,code_mixing_naturalness_valid,hindi_grammar_valid,prompt_adherence_valid,spelling_consistency_valid,overall_valid
+advice_opinion,Advice & Opinions,HingGPT,2.6,3.6,1.8,1.6,2.8,2.2,5,5,5,5,5,5
+advice_opinion,Advice & Opinions,Phi-3.5-mini,4.0,4.0,3.0,4.4,4.0,4.0,5,5,5,5,5,5
+advice_opinion,Advice & Opinions,Qwen2.5-3B,3.8,4.0,3.0,4.0,3.8,3.8,5,5,5,5,5,5
+advice_opinion,Advice & Opinions,Qwen2.5-7B,4.0,4.0,3.0,4.2,3.8,3.8,5,5,5,5,5,5
+captions_quips,Captions & One-liners,HingGPT,3.0,3.75,2.5,2.5,3.25,3.0,4,4,4,4,4,4
+captions_quips,Captions & One-liners,Phi-3.5-mini,4.0,4.0,3.25,4.5,4.0,4.0,4,4,4,4,4,4
+captions_quips,Captions & One-liners,Qwen2.5-3B,4.0,4.5,3.0,3.0,4.0,3.5,4,4,4,4,4,4
+captions_quips,Captions & One-liners,Qwen2.5-7B,4.0,4.0,3.25,3.75,4.0,3.75,4,4,4,4,4,4
+casual_chat,Casual Conversation,HingGPT,2.8,3.8,2.0,1.6,2.8,2.2,5,5,5,5,5,5
+casual_chat,Casual Conversation,Phi-3.5-mini,4.0,4.2,3.0,4.2,4.0,4.0,5,5,5,5,5,5
+casual_chat,Casual Conversation,Qwen2.5-3B,4.0,4.25,3.0,3.5,4.0,4.0,4,4,4,4,4,4
+casual_chat,Casual Conversation,Qwen2.5-7B,4.0,4.0,3.0,4.4,3.8,3.8,5,5,5,5,5,5
+customer_support,Customer Support Dialogues,HingGPT,2.5,3.0,1.5,2.5,2.5,2.5,2,2,2,2,2,2
+customer_support,Customer Support Dialogues,Phi-3.5-mini,4.0,4.0,3.0,4.0,4.0,4.0,3,3,3,3,3,3
+customer_support,Customer Support Dialogues,Qwen2.5-3B,4.0,4.0,3.0,4.0,4.0,4.0,3,3,3,3,3,3
+customer_support,Customer Support Dialogues,Qwen2.5-7B,4.0,4.0,3.0,4.333333333333333,4.0,4.0,3,3,3,3,3,3
+news_explainer,News & Explainers,HingGPT,3.25,4.0,2.25,1.0,3.0,2.25,4,4,4,4,4,4
+news_explainer,News & Explainers,Phi-3.5-mini,4.0,4.0,3.0,4.0,3.25,3.25,4,4,4,4,4,4
+news_explainer,News & Explainers,Qwen2.5-3B,4.0,4.0,3.0,4.0,4.25,4.0,4,4,4,4,4,4
+news_explainer,News & Explainers,Qwen2.5-7B,4.0,4.0,3.0,4.0,4.0,4.0,4,4,4,4,4,4
+product_review,Product Reviews,HingGPT,2.6666666666666665,3.6666666666666665,2.0,1.6666666666666667,2.6666666666666665,2.3333333333333335,3,3,3,3,3,3
+product_review,Product Reviews,Phi-3.5-mini,4.0,4.0,3.0,4.5,4.0,4.0,4,4,4,4,4,4
+product_review,Product Reviews,Qwen2.5-3B,3.5,3.75,2.5,2.5,4.0,3.25,4,4,4,4,4,4
+product_review,Product Reviews,Qwen2.5-7B,4.0,4.5,3.5,3.5,4.5,4.0,4,4,4,4,4,4
+social_media,Social Media Posts,HingGPT,3.0,4.0,2.6666666666666665,3.0,3.0,2.6666666666666665,3,3,3,3,3,3
+social_media,Social Media Posts,Phi-3.5-mini,4.0,4.0,3.0,4.8,4.0,4.0,5,5,5,5,5,5
+social_media,Social Media Posts,Qwen2.5-3B,3.8,3.8,2.8,4.0,3.8,3.6,5,5,5,5,5,5
+social_media,Social Media Posts,Qwen2.5-7B,4.0,4.0,3.0,3.6,3.8,3.8,5,5,5,5,5,5
+storytelling,Storytelling,HingGPT,3.0,3.5,3.0,3.0,3.5,3.0,2,2,2,2,2,2
+storytelling,Storytelling,Phi-3.5-mini,4.0,4.0,3.0,4.0,4.0,4.0,4,4,4,4,4,4
+storytelling,Storytelling,Qwen2.5-3B,3.75,4.0,2.75,3.25,3.75,3.5,4,4,4,4,4,4
+storytelling,Storytelling,Qwen2.5-7B,4.0,4.0,3.0,4.0,4.0,4.0,4,4,4,4,4,4

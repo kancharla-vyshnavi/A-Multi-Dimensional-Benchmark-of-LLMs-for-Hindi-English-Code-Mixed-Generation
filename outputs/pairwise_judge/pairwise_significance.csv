@@ -1,7 +1,0 @@
-﻿model_1,model_2,total_judgments,wins_model_1,wins_model_2,ties,non_ties,model_1_win_rate_excluding_ties,model_2_win_rate_excluding_ties,raw_p_value,holm_adjusted_p,significant_after_holm
-HingGPT,Phi-3.5-mini,34,19,8,7,27,70.37,29.63,0.052239,0.313434,False
-HingGPT,Qwen2.5-3B,34,17,8,9,25,68.0,32.0,0.107752,0.538761,False
-HingGPT,Qwen2.5-7B,34,16,13,5,29,55.17,44.83,0.711071,1.0,False
-Phi-3.5-mini,Qwen2.5-3B,34,13,17,4,30,43.33,56.67,0.584665,1.0,False
-Phi-3.5-mini,Qwen2.5-7B,34,16,14,4,30,53.33,46.67,0.855536,1.0,False
-Qwen2.5-3B,Qwen2.5-7B,34,12,12,10,24,50.0,50.0,1.0,1.0,False

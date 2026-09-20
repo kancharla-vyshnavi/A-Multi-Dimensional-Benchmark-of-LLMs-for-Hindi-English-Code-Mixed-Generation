@@ -1,0 +1,7 @@
+Comparison,Holm_p,Rank_Biserial,Significant
+HingGPT vs Phi-3.5-mini,0.0,-1.0,True
+HingGPT vs Qwen2.5-3B,0.0001,-0.9565,True
+HingGPT vs Qwen2.5-7B,0.0,-1.0,True
+Phi-3.5-mini vs Qwen2.5-3B,0.2997,0.5636,False
+Phi-3.5-mini vs Qwen2.5-7B,0.7389,0.1111,False
+Qwen2.5-3B vs Qwen2.5-7B,0.3211,-0.5714,False

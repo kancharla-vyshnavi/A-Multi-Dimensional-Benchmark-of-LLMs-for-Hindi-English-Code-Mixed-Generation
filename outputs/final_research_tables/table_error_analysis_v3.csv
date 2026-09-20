@@ -1,0 +1,5 @@
+Model,Missing_Rate,Prompt_Misunderstanding_Rate,Irrelevant_Response_Rate,Overall_LE2_Rate
+HingGPT,17.65,33.33,70.37,60.71
+Phi-3.5-mini,0.0,0.0,0.0,0.0
+Qwen2.5-3B,2.94,9.09,18.18,9.09
+Qwen2.5-7B,0.0,3.03,12.12,0.0

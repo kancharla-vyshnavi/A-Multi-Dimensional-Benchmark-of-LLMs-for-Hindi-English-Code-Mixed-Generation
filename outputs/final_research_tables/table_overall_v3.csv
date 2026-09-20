@@ -1,0 +1,5 @@
+Model,Independent_Judge_Mean,Valid,Pairwise_Wins,Pairwise_Losses,Pairwise_Ties,Pairwise_Win_Rate,Category_Mean,Category_SD
+HingGPT,2.464,28,24,176,4,0.1176,2.519,0.337
+Phi-3.5-mini,3.912,34,157,47,0,0.7696,3.906,0.265
+Qwen2.5-3B,3.697,33,97,105,2,0.4755,3.706,0.286
+Qwen2.5-7B,3.882,34,126,76,2,0.6176,3.894,0.115

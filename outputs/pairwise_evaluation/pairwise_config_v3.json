@@ -1,0 +1,16 @@
+{
+  "input_csv": "outputs\\controlled_v3\\benchmark_generations_v3.csv",
+  "judge_model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "models": [
+    "HingGPT",
+    "Phi-3.5-mini",
+    "Qwen2.5-3B",
+    "Qwen2.5-7B"
+  ],
+  "num_prompts": 34,
+  "num_unique_pairs": 6,
+  "directions_per_pair": 2,
+  "expected_total_judgments": 408,
+  "max_attempts": 3,
+  "pairwise_protocol": "A_vs_B_and_B_vs_A"
+}

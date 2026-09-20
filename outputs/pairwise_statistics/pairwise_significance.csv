@@ -1,7 +1,0 @@
-model_a,model_b,N,model_a_wins,model_b_wins,ties,raw_p,holm_adjusted_p,significant_alpha_0.05
-HingGPT,Phi-3.5-mini,34,19,8,7,0.052238985896110535,0.3134339153766632,False
-HingGPT,Qwen2.5-3B,34,17,8,9,0.10775214433670044,0.5387607216835022,False
-HingGPT,Qwen2.5-7B,34,16,13,5,0.711071103811264,1.0,False
-Phi-3.5-mini,Qwen2.5-3B,34,13,17,4,0.5846647117286922,1.0,False
-Phi-3.5-mini,Qwen2.5-7B,34,16,14,4,0.8555355519056321,1.0,False
-Qwen2.5-3B,Qwen2.5-7B,34,12,12,10,1.0,1.0,False

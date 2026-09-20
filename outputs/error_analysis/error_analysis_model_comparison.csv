@@ -1,5 +1,0 @@
-Model,Total_Responses,E1_Count,E1_Percentage,E2_Count,E2_Percentage,E3_Count,E3_Percentage,E4_Count,E4_Percentage,E5_Count,E5_Percentage,E6_Count,E6_Percentage,E7_Count,E7_Percentage,E8_Count,E8_Percentage,E9_Count,E9_Percentage,E10_Count,E10_Percentage
-HingGPT,34,27,79.41,0,0.0,28,82.35,27,79.41,25,73.53,34,100.0,3,8.82,7,20.59,0,0.0,34,100.0
-Phi-3.5-mini,34,27,79.41,7,20.59,25,73.53,24,70.59,0,0.0,34,100.0,7,20.59,1,2.94,1,2.94,33,97.06
-Qwen2.5-3B,34,20,58.82,5,14.71,7,20.59,7,20.59,21,61.76,29,85.29,10,29.41,0,0.0,1,2.94,25,73.53
-Qwen2.5-7B,34,19,55.88,6,17.65,13,38.24,11,32.35,20,58.82,32,94.12,13,38.24,0,0.0,0,0.0,26,76.47

@@ -1,7 +1,0 @@
-﻿model_1,model_2,total_judgments,model_1_wins,model_2_wins,ties,model_1_win_percent,model_2_win_percent,tie_percent
-HingGPT,Phi-3.5-mini,34,19,8,7,55.88,23.53,20.59
-HingGPT,Qwen2.5-3B,34,17,8,9,50.0,23.53,26.47
-HingGPT,Qwen2.5-7B,34,16,13,5,47.06,38.24,14.71
-Phi-3.5-mini,Qwen2.5-3B,34,13,17,4,38.24,50.0,11.76
-Phi-3.5-mini,Qwen2.5-7B,34,16,14,4,47.06,41.18,11.76
-Qwen2.5-3B,Qwen2.5-7B,34,12,12,10,35.29,35.29,29.41

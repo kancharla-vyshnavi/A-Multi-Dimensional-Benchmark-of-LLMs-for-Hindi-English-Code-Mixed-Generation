@@ -1,0 +1,21 @@
+model,prompt,overall
+HingGPT,"A friend asks you: 'What did you do this weekend?' Respond in natural Hinglish, like you are chatting with a close friend.",2.0
+HingGPT,Your friend is stressed about an upcoming exam. Cheer them up with a message in Hinglish.,2.0
+HingGPT,Tell your friend about a funny incident that happened to you on the bus today. Respond in Hinglish.,2.0
+HingGPT,"Your friend is planning to buy a new phone and asks your opinion: iPhone ya Samsung, kya lena chahiye? Respond in Hinglish.",2.0
+HingGPT,Write an Instagram story text announcing a new YouTube video about '5 easy desi breakfast ideas'. Use Hinglish.,2.0
+HingGPT,Write a 4-star Amazon-style review of a budget smartphone you just bought. Use Hinglish.,2.0
+HingGPT,Write a negative review of a food delivery app whose order arrived cold and late. Use Hinglish.,2.0
+HingGPT,Tell a short story about a street dog who becomes the hero of a neighbourhood. Write it in Hinglish.,2.0
+HingGPT,Give advice to someone who wants to start learning coding but has no background in it. Use Hinglish.,2.0
+HingGPT,Someone asks: 'Long distance relationship mein kya karna chahiye?' Give friendly advice in Hinglish.,2.0
+HingGPT,A friend wants to start a small food stall business. Give them practical advice in Hinglish.,2.0
+HingGPT,Someone asks how to reduce mobile screen time. Answer with practical tips in Hinglish.,2.0
+HingGPT,"You are a customer support agent. A customer writes: 'Mera order 5 din se nahi aaya, kya problem hai?' Respond professionally in Hinglish.",2.0
+HingGPT,Write a motivational one-liner in Hinglish about starting small.,2.0
+HingGPT,"Explain to a friend why petrol prices keep rising, in simple Hinglish.",2.0
+HingGPT,"Summarize why doctors advise getting enough sleep, in Hinglish for a young audience.",2.0
+HingGPT,Explain how UPI payments work to someone new to smartphones. Use Hinglish.,2.0
+Qwen2.5-3B,Write an Instagram story text announcing a new YouTube video about '5 easy desi breakfast ideas'. Use Hinglish.,2.0
+Qwen2.5-3B,Write a glowing review of a saree you bought online for your mother. Use Hinglish.,2.0
+Qwen2.5-3B,Tell a short story about a street dog who becomes the hero of a neighbourhood. Write it in Hinglish.,2.0

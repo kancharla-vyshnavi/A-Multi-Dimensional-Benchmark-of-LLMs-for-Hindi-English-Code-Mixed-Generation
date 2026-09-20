@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "max_input_tokens": 512,
+  "max_new_tokens": 50,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "repetition_penalty": 1.1,
+  "use_4bit": true,
+  "qwen_7b_mode": "direct_gpu_greedy",
+  "device": "cuda",
+  "models": {
+    "Phi-3.5-mini": {
+      "model_name": "microsoft/Phi-3.5-mini-instruct",
+      "checkpoint": "C:\\Users\\vyshu\\OneDrive\\Desktop\\HinglishLLM\\models\\phi35_mini_cpt\\checkpoint-17340",
+      "type": "chat"
+    },
+    "Qwen2.5-3B": {
+      "model_name": "Qwen/Qwen2.5-3B",
+      "checkpoint": "C:\\Users\\vyshu\\OneDrive\\Desktop\\HinglishLLM\\models\\qwen25_3b_cpt\\checkpoint-17340",
+      "type": "chat"
+    },
+    "HingGPT": {
+      "model_name": "l3cube-pune/hing-gpt",
+      "checkpoint": "C:\\Users\\vyshu\\OneDrive\\Desktop\\HinglishLLM\\models\\hinggpt_cpt\\checkpoint-17340",
+      "type": "hinggpt"
+    },
+    "Qwen2.5-7B": {
+      "model_name": "Qwen/Qwen2.5-7B",
+      "checkpoint": "C:\\Users\\vyshu\\OneDrive\\Desktop\\HinglishLLM\\models\\qwen25_7b_cpt\\checkpoint-17340",
+      "type": "chat"
+    }
+  }
+}
