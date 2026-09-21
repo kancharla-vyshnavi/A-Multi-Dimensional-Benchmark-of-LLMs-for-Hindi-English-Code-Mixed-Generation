@@ -1,523 +1,253 @@
 # A Multi-Dimensional Benchmark of LLMs for Hindi-English Code-Mixed Generation
 
-A reproducible benchmark for evaluating Large Language Models (LLMs) on **Hindi-English code-mixed (Hinglish) text generation** using controlled prompting, independent LLM-as-a-Judge evaluation, pairwise comparison, category-level robustness analysis, error analysis, and non-parametric statistical testing.
-
----
+A systematic benchmark for evaluating Large Language Models (LLMs) on **Hindi-English code-mixed (Hinglish) text generation** across multiple dimensions, including fluency, code-mixing quality, Hindi grammaticality, prompt adherence, spelling consistency, and overall response quality.
 
 ## Overview
 
-Hindi-English code-mixed text is widely used in informal digital communication. However, evaluating LLMs on code-mixed generation requires more than a single automatic metric.
+Hindi-English code-mixed language is widely used in informal communication, social media, customer interactions, and online content. However, evaluating LLMs on code-mixed generation requires more than conventional language-generation metrics.
 
-This project presents a **multi-dimensional benchmark for Hindi-English code-mixed generation**, comparing four language models across:
+This project presents a **multi-dimensional evaluation framework** for comparing LLMs on controlled Hindi-English code-mixed generation tasks.
 
-* Independent LLM-as-a-Judge evaluation
-* Pairwise model comparison
-* Category-level robustness
-* Prompt adherence and linguistic quality
-* Systematic error analysis
-* Statistical significance testing
-* Reproducible research outputs
+The benchmark evaluates:
 
-The evaluation uses the **same 34 benchmark prompts** across all four models and applies a controlled evaluation protocol.
+* Linguistic fluency
+* Code-mixing naturalness
+* Hindi grammaticality
+* Prompt adherence
+* Spelling consistency
+* Overall response quality
+* Script-level characteristics
+* Lexicon-based code-mixing characteristics
+* Error patterns
+* Pairwise model preferences
+* Human–LLM judge agreement
 
----
+## Models Evaluated
 
-# Models Evaluated
+The benchmark evaluates four models:
 
-| Model        | Type                                             |
-| ------------ | ------------------------------------------------ |
-| HingGPT      | Hindi-English code-mixed language model          |
-| Phi-3.5-mini | General-purpose instruction-tuned language model |
-| Qwen2.5-3B   | General-purpose language model                   |
-| Qwen2.5-7B   | General-purpose language model                   |
+| Model        | Type                            |
+| ------------ | ------------------------------- |
+| HingGPT      | Hinglish-focused language model |
+| Phi-3.5-mini | General-purpose LLM             |
+| Qwen2.5-3B   | General-purpose LLM             |
+| Qwen2.5-7B   | General-purpose LLM             |
 
-### Methodological Note
+## Benchmark Design
 
-The evaluated models differ in architecture, parameter scale, and pretraining/instruction-tuning characteristics. Therefore, the results are interpreted as a **comparative benchmark evaluation**, not as a controlled causal experiment isolating model size or architecture.
+The benchmark contains **34 prompts** distributed across **8 categories**:
 
----
+1. Advice & Opinions
+2. Captions & One-liners
+3. Casual Conversation
+4. Customer Support Dialogues
+5. News & Explainers
+6. Product Reviews
+7. Social Media Posts
+8. Storytelling
 
-# Benchmark
+Each model was evaluated on the same benchmark prompts to enable controlled comparison.
 
-The benchmark contains **34 prompts across 8 generation categories**.
+## Evaluation Framework
 
-| Category                   | Prompts |
-| -------------------------- | ------: |
-| Advice & Opinions          |       5 |
-| Captions & One-liners      |       4 |
-| Casual Conversation        |       5 |
-| Customer Support Dialogues |       3 |
-| News & Explainers          |       4 |
-| Product Reviews            |       4 |
-| Social Media Posts         |       5 |
-| Storytelling               |       4 |
-| **Total**                  |  **34** |
+### 1. Independent LLM Judge
 
-The same benchmark prompts are evaluated across all four models.
+Generated responses were evaluated using an independent **Mistral-7B-Instruct-v0.3** judge.
 
----
+Each response was assessed on a 1–5 scale for:
 
-# Controlled Generation
+* Fluency
+* Code-mixing quality
+* Hindi grammar
+* Prompt adherence
+* Spelling consistency
+* Overall quality
 
-Generation was performed using a controlled evaluation protocol to maintain consistency across models.
+The independent judge produced valid scores for 129 of the 136 generated responses. Missing responses were retained as missing rather than silently replaced.
 
-The generation configuration includes:
+### 2. Pairwise Evaluation
 
-* Maximum new tokens: 50
-* Greedy decoding for the controlled benchmark generation
-* Consistent benchmark prompts
-* Identical evaluation samples across models
+Pairwise comparison was performed for all six unique model pairs.
 
-The complete generation outputs are stored in:
+With 34 prompts and both comparison directions, this produced:
 
-```text
-outputs/
-└── controlled_generation/
-    ├── benchmark_generations.csv
-    ├── benchmark_generations.jsonl
-    └── generation_config.json
-```
+**408 pairwise comparisons**
 
----
+The pairwise evaluation also included a swapped-order consistency analysis to examine whether changing the position of the two models affected the comparison.
 
-# Evaluation Methodology
+### 3. Human Validation
 
-## 1. Independent LLM-as-a-Judge Evaluation
+A human validation subset containing **48 responses** was annotated:
 
-Generated responses were evaluated using:
+* 12 responses per model
+* 6 evaluation dimensions
 
-**Mistral-7B-Instruct-v0.3**
+Human scores were compared with the independent Mistral judge to measure agreement.
 
-The judge is independent of the four evaluated models.
+The human validation is intended as a validation analysis rather than a replacement for the full automated evaluation.
 
-Each response was evaluated on six 1–5 quality dimensions:
+### 4. Missing-Data Sensitivity
 
-1. Fluency
-2. Code-Mixing Naturalness
-3. Hindi Grammar
-4. Prompt Adherence
-5. Spelling Consistency
-6. Overall Quality
+A worst-case sensitivity analysis was performed for responses missing independent-judge scores.
 
-Two additional error indicators were recorded:
+For this analysis, missing overall scores were conservatively assigned a score of **1/5** to examine how much the model-level mean could change under an adverse missing-data assumption.
 
-* **E6:** Prompt misunderstanding
-* **E10:** Irrelevant response
+### 5. Hinglish-Specific Analysis
 
-### Evaluation Coverage
+Additional linguistic analyses were performed using:
 
-There are:
+* Script-level statistics
+* Devanagari/Latin script proportions
+* Mixed-script rates
+* Roman-dominant rates
+* A transparent lexicon-based approximate Code-Mixing Index (CMI)
 
-```text
-4 models × 34 prompts = 136 model responses
-```
+The CMI is treated as a **heuristic indicator**, not as gold-standard language identification.
 
-The independent judge produced valid scores for most responses. A small number of judge outputs remained missing after controlled recovery attempts and are explicitly accounted for in the analysis.
-
-Judge outputs are stored in:
-
-```text
-outputs/
-└── independent_judge/
-    ├── independent_mistral_judge_results.csv
-    └── independent_mistral_judge_results.jsonl
-```
-
----
-
-# 2. Pairwise Evaluation
-
-Pairwise evaluation compares two model responses for the **same benchmark prompt**.
-
-With four models:
-
-```text
-4 models
-   ↓
-6 unique model pairs
-   ↓
-34 benchmark prompts
-   ↓
-2 presentation directions
-   ↓
-408 pairwise comparisons
-```
-
-The evaluation uses an independent Mistral-7B-Instruct-v0.3 judge.
-
-Both presentation orders are evaluated to reduce potential position bias:
-
-```text
-Model A vs Model B
-Model B vs Model A
-```
-
-The pairwise evaluation records:
-
-* Model wins
-* Model losses
-* Ties
-* Confidence
-* Swap consistency
-
-Outputs are stored in:
-
-```text
-outputs/
-└── pairwise_evaluation/
-    ├── pairwise_results.csv
-    ├── pairwise_results.jsonl
-    ├── pairwise_config.json
-    ├── pairwise_model_comparison.csv
-    ├── pairwise_model_aggregate.csv
-    └── pairwise_swap_consistency.csv
-```
-
----
-
-# 3. Category-Level Robustness Analysis
-
-Performance is also examined across the eight benchmark categories.
-
-The category analysis connects each generated response to its benchmark category and summarizes independent-judge scores within each category.
-
-The analysis reports:
-
-* Category-level overall scores
-* Model-level category means
-* Variation across categories
-* Category-wise pairwise comparisons
-* Valid evaluation counts
-
-Outputs are stored in:
-
-```text
-outputs/
-└── category_robustness/
-    ├── category_annotated_judge_rows.csv
-    ├── category_error_flags.csv
-    ├── category_independent_judge_summary.csv
-    ├── category_overall_results.csv
-    ├── category_pairwise_comparison.csv
-    └── category_prompt_counts.csv
-```
-
-Because individual categories contain only 3–5 prompts, category-level results should be interpreted as **descriptive robustness evidence** rather than as large-sample estimates.
-
----
-
-# 4. Statistical Analysis
-
-The statistical analysis treats benchmark prompts as repeated evaluation units across models.
-
-The primary non-parametric analysis includes:
-
-* Friedman test
-* Pairwise Wilcoxon signed-rank tests
-* Holm correction for multiple comparisons
-* Rank-biserial effect size
-* Kendall's W
-
-### Overall Friedman Test
-
-For the independent-judge overall-quality scores:
-
-```text
-Complete prompts: 27
-Friedman χ²(3) = 55.6141
-p < 0.000001
-Kendall's W = 0.6866
-```
-
-The Friedman test indicates statistically detectable differences among the four models over the complete paired subset.
-
-### Holm-Corrected Pairwise Results
-
-| Comparison                 |  n | Holm-adjusted p | Significant |
-| -------------------------- | -: | --------------: | ----------- |
-| HingGPT vs Phi-3.5-mini    | 28 |         <0.0001 | Yes         |
-| HingGPT vs Qwen2.5-3B      | 27 |          0.0001 | Yes         |
-| HingGPT vs Qwen2.5-7B      | 28 |         <0.0001 | Yes         |
-| Phi-3.5-mini vs Qwen2.5-3B | 33 |          0.2997 | No          |
-| Phi-3.5-mini vs Qwen2.5-7B | 34 |          0.7389 | No          |
-| Qwen2.5-3B vs Qwen2.5-7B   | 33 |          0.3211 | No          |
-
-Statistical results are stored in:
-
-```text
-outputs/
-└── statistical_analysis/
-    ├── friedman_results.csv
-    └── wilcoxon_holm_results.csv
-```
-
----
-
-# 5. Error Analysis
-
-Generation errors are analyzed using ten error categories.
-
-| Code | Error Category                 |
-| ---- | ------------------------------ |
-| E1   | English-dominant output        |
-| E2   | Hindi-dominant output          |
-| E3   | Unnatural code-switching       |
-| E4   | Grammatical error              |
-| E5   | Repetition                     |
-| E6   | Prompt misunderstanding        |
-| E7   | Incomplete response            |
-| E8   | Spelling/transliteration issue |
-| E9   | Hallucination/factual error    |
-| E10  | Irrelevant response            |
-
-Error categories are **not mutually exclusive**.
-
-### Model-Level Error Patterns
-
-Among valid independent-judge records:
-
-| Model        | Valid | Missing |
-| ------------ | ----: | ------: |
-| HingGPT      |    28 |       6 |
-| Phi-3.5-mini |    34 |       0 |
-| Qwen2.5-3B   |    33 |       1 |
-| Qwen2.5-7B   |    34 |       0 |
-
-Selected observed error indicators:
-
-| Model        | E6 Prompt Misunderstanding | E10 Irrelevant Response |
-| ------------ | -------------------------: | ----------------------: |
-| HingGPT      |              9/27 (33.33%) |          19/27 (70.37%) |
-| Phi-3.5-mini |                  0/34 (0%) |               0/34 (0%) |
-| Qwen2.5-3B   |               3/33 (9.09%) |           6/33 (18.18%) |
-| Qwen2.5-7B   |               1/33 (3.03%) |           4/33 (12.12%) |
-
-Outputs are stored in:
-
-```text
-outputs/
-└── error_analysis/
-    ├── dimension_error_summary.csv
-    ├── E10_irrelevant_response.csv
-    ├── E6_prompt_misunderstanding.csv
-    ├── low_score_responses.csv
-    ├── missing_judge_summary.csv
-    └── overall_score_distribution.csv
-```
-
----
-
-# Overall Independent-Judge Results
-
-The independent Mistral judge produced the following overall-quality means:
-
-| Model        | Valid N | Overall Mean |
-| ------------ | ------: | -----------: |
-| HingGPT      |      28 |        2.464 |
-| Phi-3.5-mini |      34 |        3.912 |
-| Qwen2.5-3B   |      33 |        3.697 |
-| Qwen2.5-7B   |      34 |        3.882 |
-
-These values are descriptive results from the independent-judge evaluation and should be interpreted together with the statistical, pairwise, category, and error analyses.
-
----
-
-# Pairwise Aggregate Results
-
-Across the 204 comparisons involving each model:
-
-| Model        | Wins | Losses | Ties | Total | Win Rate |
-| ------------ | ---: | -----: | ---: | ----: | -------: |
-| HingGPT      |   24 |    176 |    4 |   204 |   0.1176 |
-| Phi-3.5-mini |  157 |     47 |    0 |   204 |   0.7696 |
-| Qwen2.5-3B   |   97 |    105 |    2 |   204 |   0.4755 |
-| Qwen2.5-7B   |  126 |     76 |    2 |   204 |   0.6176 |
-
-Pairwise results are based on the 408 direction-controlled comparisons and should be considered alongside swap-consistency measurements.
-
----
-
-# Reproducibility
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/kancharla-vyshnavi/A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation.git
-
-cd A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation
-```
-
-## Create a Virtual Environment
-
-### Windows
-
-```powershell
-python -m venv .venv311
-.venv311\Scripts\activate
-```
-
-### Linux/macOS
-
-```bash
-python -m venv .venv311
-source .venv311/bin/activate
-```
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# Analysis Scripts
-
-The repository contains scripts for the complete evaluation workflow.
-
-### Controlled Generation
-
-```bash
-python run_controlled_generation.py
-```
+## Main Results
 
 ### Independent Judge
 
-The independent judge evaluation uses the generated benchmark responses and Mistral-7B-Instruct-v0.3.
+| Model        | Mean Overall Score | Valid Responses |
+| ------------ | -----------------: | --------------: |
+| HingGPT      |              2.464 |              28 |
+| Phi-3.5-mini |              3.912 |              34 |
+| Qwen2.5-3B   |              3.697 |              33 |
+| Qwen2.5-7B   |              3.882 |              34 |
+
+The results show differences across models and evaluation dimensions rather than a single uniform performance pattern.
 
 ### Pairwise Evaluation
 
-```bash
-python run_pairwise_evaluation.py
-```
+Across 204 comparisons per model:
 
-### Pairwise Analysis
+| Model        | Wins | Losses | Ties | Win Rate |
+| ------------ | ---: | -----: | ---: | -------: |
+| HingGPT      |   24 |    176 |    4 |   0.1176 |
+| Phi-3.5-mini |  157 |     47 |    0 |   0.7696 |
+| Qwen2.5-3B   |   97 |    105 |    2 |   0.4755 |
+| Qwen2.5-7B   |  126 |     76 |    2 |   0.6176 |
 
-```bash
-python analyze_pairwise.py
-```
+Pairwise results are reported together with statistical tests and swap-order consistency analysis.
 
-### Statistical Analysis
+### Category-Level Analysis
 
-```bash
-python analyze_statistics.py
-```
+The benchmark also reports model performance separately across the eight task categories.
 
-### Error Analysis
+This allows differences between models to be examined at the task-category level rather than relying only on an aggregate score.
 
-```bash
-python analyze_error_patterns.py
-```
+## Human Validation
 
-### Category Robustness
+Human annotation produced a substantially stricter scoring pattern than the independent LLM judge.
 
-```bash
-python analyze_category_robustness.py
-```
+For the paired human–Mistral validation subset, the analysis reports:
 
----
+* Mean-score differences
+* Spearman correlation
+* Weighted quadratic Cohen's kappa
+* Paired sample counts
 
-# Repository Structure
+The results indicate **weak agreement between the single human annotator and the LLM judge** across the evaluated dimensions.
+
+Because the validation contains a single human annotator, human–human inter-annotator agreement cannot be estimated from this dataset.
+
+## Reproducibility
+
+The repository contains the generated benchmark outputs and evaluation artifacts required to inspect the experimental results.
+
+### Directory Structure
 
 ```text
 HinglishLLM/
-│
-├── configs/
-│
-├── data/
-│   └── benchmarks/
-│       └── hinglish_bench_test.csv
-│
-├── models/
-│
-├── src/
-│   └── evaluation/
 │
 ├── outputs/
 │   ├── category_robustness/
 │   ├── controlled_generation/
 │   ├── error_analysis/
+│   ├── final_charts/
 │   ├── final_research_tables/
+│   ├── final_robustness/
+│   ├── hinglish_metrics/
+│   ├── human_validation/
 │   ├── independent_judge/
 │   ├── pairwise_evaluation/
 │   └── statistical_analysis/
 │
-├── run_controlled_generation.py
-├── run_pairwise_evaluation.py
-├── analyze_pairwise.py
-├── analyze_statistics.py
-├── analyze_error_patterns.py
-├── analyze_category_robustness.py
-│
-├── evaluate_hinggpt.py
-├── evaluate_phi35_mini.py
-├── evaluate_qwen25_3b.py
-├── evaluate_qwen25_7b.py
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
+├── analyze_human_agreement.py
+├── project_structure.txt
+└── README.md
 ```
 
----
+## Final Research Tables
 
-# Final Research Outputs
+The `outputs/final_research_tables/` directory contains consolidated tables for:
 
-The consolidated research tables are stored in:
+* Overall model results
+* Statistical comparisons
+* Category-level performance
+* Error analysis
+
+## Visualizations
+
+The `outputs/final_charts/` directory contains visual summaries of:
+
+* Independent judge scores
+* Pairwise win rates
+* Category-level performance
+* Code-mixing index
+
+## Statistical Analysis
+
+Pairwise model comparisons were analyzed using statistical tests with Holm correction for multiple comparisons.
+
+The statistical outputs are available under:
 
 ```text
-outputs/
-└── final_research_tables/
-    ├── table_overall.csv
-    ├── table_category.csv
-    ├── table_statistics.csv
-    └── table_error_analysis.csv
+outputs/statistical_analysis/
 ```
 
-These tables provide compact research-ready summaries of:
+The results distinguish statistically significant comparisons from comparisons for which statistical significance was not established.
 
-* Overall model evaluation
-* Category-level performance
-* Statistical testing
-* Error patterns
+## Limitations
 
----
+Several limitations should be considered when interpreting the results:
 
-# Limitations
+1. **Small benchmark size**
+   The benchmark contains 34 prompts, so results should not be interpreted as universally representative of all Hindi-English code-mixed usage.
 
-1. The benchmark contains 34 prompts, so category-level estimates are based on relatively small numbers of examples.
+2. **Single independent LLM judge**
+   Automated evaluation depends partly on the behavior and scoring tendencies of the Mistral judge.
 
-2. A small number of independent-judge outputs remained missing after controlled recovery attempts. Statistical analyses therefore use the available paired observations where appropriate.
+3. **Human validation size**
+   Human validation contains 48 responses and one human annotator.
 
-3. LLM-as-a-Judge scores represent automated evaluation evidence and should not be interpreted as equivalent to human annotation.
+4. **Human–LLM score differences**
+   The human annotator was substantially stricter than the independent LLM judge, and agreement was weak across several dimensions.
 
-4. Pairwise judgments are subject to possible judge and presentation-order effects. Both model orders were evaluated to assess swap consistency.
+5. **Script-based analysis limitations**
+   Latin-script output does not necessarily mean English-language output because Romanized Hindi is also written using Latin characters.
 
-5. Error categories are not mutually exclusive.
+6. **Lexicon-based CMI limitations**
+   The Code-Mixing Index is a transparent heuristic and should not be interpreted as a gold-standard language-identification system.
 
-6. Automatic generation and linguistic metrics capture specific properties of generated text and should not be interpreted as complete measures of semantic or conversational quality.
+7. **Pairwise order sensitivity**
+   Swap-order consistency varied across model pairs, indicating that pairwise comparisons should be interpreted together with the order-sensitivity analysis.
 
-7. Results are specific to the benchmark prompts, generation configuration, judge model, and evaluation protocol used in this study.
+## Conclusion
 
----
+This project provides a structured framework for evaluating Hindi-English code-mixed generation using multiple complementary evaluation approaches.
 
-# Research Contribution
+Rather than relying on a single metric, the benchmark combines:
 
-This project provides a **multi-dimensional and reproducible evaluation framework for Hindi-English code-mixed LLM generation**.
+* Independent LLM judging
+* Pairwise comparison
+* Category-level analysis
+* Error analysis
+* Human validation
+* Missing-data sensitivity analysis
+* Script-level analysis
+* Code-mixing analysis
+* Statistical significance testing
 
-The framework combines:
+The resulting evaluation artifacts provide a reproducible basis for studying how different LLMs handle Hindi-English code-mixed generation across diverse task types and evaluation dimensions.
 
-* Controlled benchmark generation
-* Independent LLM-as-a-Judge evaluation
-* Six-dimensional quality assessment
-* Pairwise model comparison
-* Position-swap evaluation
-* Category-level robustness analysis
-* Systematic error analysis
-* Friedman statistical testing
-* Wilcoxon signed-rank testing
-* Holm multiple-comparison correction
-* Effect-size analysis
-* Reproducible research outputs
-
-The resulting evaluation framework is designed to provide a broader view of Hindi-English code-mixed generation quality than relying on a single metric or evaluation method.
