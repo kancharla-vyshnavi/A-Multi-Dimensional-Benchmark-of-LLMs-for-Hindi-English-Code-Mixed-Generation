@@ -4,11 +4,9 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![Status: Active Research](https://img.shields.io/badge/Status-Active%20Research-success.svg)]()
 
-
-
 **1. Project Overview & Motivation**
-
-Bilingual and multilingual speakers naturally blend languages in daily communication (code-mixing). While modern Large Language Models (LLMs) handle standard English or formal Hindi reasonably well, generating natural, contextually accurate, and syntactically sound **Hindi-English (Hinglish) code-mixed** text remains a complex challenge.
+   
+Bilingual and multilingual speakers naturally blend languages in daily communication (code-mixing). While modern Large Language Models (LLMs) handle standard English or formal Hindi reasonably well, generating natural, contextually accurate, and syntactically sound Hindi-English (Hinglish) code-mixed text remains a complex challenge.
 
 This comprehensive benchmark evaluates various open-source and proprietary LLMs across multiple critical linguistic dimensions:
 
@@ -32,26 +30,21 @@ A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation
 └── README.md         # Full project documentation
 
 
+**3. Getting Started & Installation**
 
-**3. Getting Started & Installation
-Step 3.1: Clone the Repository**
-
-git clone https://github.com/kancharla-vyshnavi/A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation.git
+**Step 3.1: Clone the Repository**
+git clone [https://github.com/kancharla-vyshnavi/A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation.git](https://github.com/kancharla-vyshnavi/A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation.git)
 cd A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation
 
 **Step 3.2: Install Dependencies**
-
 pip install -r requirements.txt
 
 **Step 3.3: Run the Benchmark Pipeline**
-
 Execute the primary evaluation script using your configured API keys or local model weights:
 python src/evaluate.py
 
 
-
 **4. Evaluation Metrics**
-
 **Code-Mixing Index (CMI):** Measures the degree of mixing present in the generated token sequence.
 
 **Task Success Rate:** Evaluates how strictly models follow instruction prompts while maintaining natural code-mixed outputs.
@@ -59,22 +52,18 @@ python src/evaluate.py
 **Perplexity & Fluency Scores:** Assesses the linguistic acceptability of the generated Hinglish sentences.
 
 
+**5. Preliminary Results Overview**
 
-**5.Preliminary Results OverviewModel**
-
-**Model Family	Model Name	CMI Score (Avg)	Fluency Rating	Instruction Adherence**
+**Model FamilyModel NameCMI Score (Avg)Fluency RatingInstruction Adherence**
 Proprietary	GPT-4o	High (Optimal)	Excellent	Superior
 Proprietary	Claude 3.5 Sonnet	High (Optimal)	Excellent	Superior
 Open-Source	Llama-3-70B-Instruct	Moderate-High	Very Good	Good
 Open-Source	Mistral-7B-Instruct	Moderate	Fair	Moderate
 
 
-
 **6. Contributing**
 
 Contributions, suggestions, and issue reports are always welcome! Feel free to fork this repository, open an issue, or submit a pull request for enhancements.
-
-
 
 **7. License**
 
