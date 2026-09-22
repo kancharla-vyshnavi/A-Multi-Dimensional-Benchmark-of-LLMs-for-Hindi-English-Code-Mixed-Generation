@@ -1,10 +1,10 @@
-A Multi-Dimensional Benchmark of LLMs for Hindi-English Code-Mixed Generation
+**A Multi-Dimensional Benchmark of LLMs for Hindi-English Code-Mixed Generation**
 
 A reproducible evaluation framework for comparing Large Language Models (LLMs) on Hindi-English code-mixed (Hinglish) text generation across multiple task categories and evaluation dimensions.
 
 The repository contains the benchmark data, model-generation scripts, evaluation scripts, statistical analyses, human-validation results, error analysis, linguistic metrics, research tables, and final visualizations.
 
-Research Objective
+**Research Objective**
 
 Hindi-English code-mixed text is common in informal communication, social media, customer interactions, and online content. Conventional language-generation metrics do not fully capture the quality of such mixed-language output.
 
@@ -32,11 +32,11 @@ Pairwise model comparisons
 
 Human–LLM judge agreement
 
-Models Evaluated
+**Models Evaluated**
 
-Model
+**Model**
 
-Type
+**Type**
 
 HingGPT
 
@@ -54,13 +54,13 @@ Qwen2.5-7B
 
 General-purpose LLM
 
-Benchmark
+**Benchmark**
 
 The controlled benchmark contains 34 prompts across 8 task categories:
 
-Category
+**Category**
 
-Prompts
+**Prompts**
 
 Advice & Opinions
 
@@ -94,13 +94,13 @@ Storytelling
 
 4
 
-Total
+**Total**
 
 34
 
 Every evaluated model receives the same benchmark prompts to support controlled comparison.
 
-Evaluation Pipeline
+**Evaluation Pipeline**
 
 Benchmark prompts
        │
@@ -134,9 +134,9 @@ Controlled generation
                               ▼
                     Research tables & figures
 
-Evaluation Components
+**Evaluation Components**
 
-1. Independent LLM Judge
+**1. Independent LLM Judge**
 
 Generated responses were evaluated using an independent Mistral-7B-Instruct-v0.3 judge.
 
@@ -156,7 +156,7 @@ Overall quality
 
 The completed judge output contains valid scores for 129 of 136 responses. Missing scores are retained as missing rather than silently replaced.
 
-2. Pairwise Evaluation
+**2. Pairwise Evaluation**
 
 All six unique model pairs were evaluated in both comparison directions.
 
@@ -170,7 +170,7 @@ All six unique model pairs were evaluated in both comparison directions.
 
 A swap-order consistency analysis is also included.
 
-3. Human Validation
+**3. Human Validation**
 
 A validation subset of 48 responses was manually annotated:
 
@@ -182,11 +182,11 @@ Human scores were compared with the independent LLM judge using mean differences
 
 Because the validation contains one human annotator, human–human inter-annotator agreement cannot be estimated.
 
-4. Missing-Data Sensitivity
+**4. Missing-Data Sensitivity**
 
 A conservative worst-case analysis assigns a score of 1/5 to missing overall scores and measures the resulting change in model-level means.
 
-5. Hinglish-Specific Analysis
+**5. Hinglish-Specific Analysis**
 
 The repository includes:
 
@@ -200,7 +200,7 @@ A transparent lexicon-based approximate Code-Mixing Index (CMI)
 
 The CMI is treated as a heuristic indicator rather than a gold-standard language-identification system.
 
-6. Error Analysis
+**6. Error Analysis**
 
 The error-analysis pipeline covers:
 
@@ -226,15 +226,15 @@ E10 — Irrelevant response
 
 Both aggregate and model-level error summaries are provided.
 
-Main Results
+**Main Results**
 
-Independent Judge
+**Independent Judge**
 
-Model
+**Model**
 
-Mean Overall Score
+**Mean Overall Score**
 
-Valid Responses
+**Valid Responses**
 
 HingGPT
 
@@ -262,17 +262,17 @@ Qwen2.5-7B
 
 These results should be interpreted together with the dimension-level, pairwise, category-level, human-validation, and missing-data analyses rather than as a single standalone score.
 
-Pairwise Evaluation
+**Pairwise Evaluation**
 
-Model
+**Model**
 
-Wins
+**Wins**
 
-Losses
+**Losses**
 
-Ties
+**Ties**
 
-Win Rate
+**Win Rate**
 
 HingGPT
 
@@ -316,7 +316,7 @@ Qwen2.5-7B
 
 Statistical significance results and Holm-corrected comparisons are provided in outputs/statistical_analysis/.
 
-Repository Structure
+**Repository Structure**
 
 HinglishLLM/
 │
@@ -360,11 +360,11 @@ HinglishLLM/
 ├── analyze_pairwise.py
 └── analyze_statistics.py
 
-What each major directory contains
+**What each major directory contains**
 
-Directory
+**Directory**
 
-Purpose
+**Purpose**
 
 data/benchmarks/
 
@@ -422,14 +422,14 @@ FINAL_PROJECT_OUTPUTS/
 
 Consolidated final research artifacts
 
-Installation
+**Installation**
 
-1. Clone the repository
+**1. Clone the repository**
 
 git clone https://github.com/kancharla-vyshnavi/A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation.git
 cd A-Multi-Dimensional-Benchmark-of-LLMs-for-Hindi-English-Code-Mixed-Generation
 
-2. Create a virtual environment
+**2. Create a virtual environment**
 
 Windows PowerShell:
 
@@ -441,11 +441,11 @@ Linux/macOS:
 python -m venv .venv
 source .venv/bin/activate
 
-3. Install dependencies
+**3. Install dependencies**
 
 pip install -r requirements.txt
 
-Reproducing the Existing Analyses
+**Reproducing the Existing Analyses**
 
 The repository already contains the generated outputs and research artifacts. Therefore, you do not need to regenerate model responses simply to inspect the reported results.
 
@@ -459,7 +459,7 @@ python analyze_statistics.py
 
 The corresponding results are stored under outputs/.
 
-Running Controlled Generation
+**Running Controlled Generation**
 
 The main controlled-generation entry point is:
 
@@ -474,7 +474,7 @@ python evaluate_qwen25_7b.py
 
 Generation requires the relevant model checkpoints and a compatible Python/PyTorch environment. Model weights are not assumed to be downloaded automatically by this README.
 
-Running Pairwise Evaluation
+**Running Pairwise Evaluation**
 
 python run_pairwise_evaluation.py
 
@@ -482,7 +482,7 @@ The resulting artifacts are stored in:
 
 outputs/pairwise_evaluation/
 
-Inspecting Final Results
+**Inspecting Final Results**
 
 For the paper/research report, start with:
 
@@ -510,7 +510,7 @@ Category-level performance
 
 Code-mixing index
 
-Reproducibility Notes
+**Reproducibility Notes**
 
 To reproduce the analysis consistently:
 
@@ -526,34 +526,34 @@ Use the provided output tables as the reference for the reported experiment.
 
 Record hardware, Python, PyTorch, and Transformers versions when rerunning generation or judge inference.
 
-Statistical Analysis
+**Statistical Analysis**
 
 The project uses statistical analysis to complement descriptive results.
 
-The repository contains:
+**The repository contains:**
 
 outputs/statistical_analysis/friedman_results.csv
 outputs/statistical_analysis/wilcoxon_holm_results.csv
 
 Pairwise comparisons use Holm correction for multiple comparisons. Statistical significance should be interpreted together with effect sizes, sample size, and the practical magnitude of score differences.
 
-Limitations
+**Limitations**
 
-Benchmark size: 34 prompts cannot represent all Hindi-English code-mixed usage.
+**Benchmark size:** 34 prompts cannot represent all Hindi-English code-mixed usage.
 
-Single independent LLM judge: Automated scores depend partly on the behavior of the selected judge.
+**Single independent LLM judge:** Automated scores depend partly on the behavior of the selected judge.
 
-Human validation size: 48 responses and one human annotator limit the strength of human-validation conclusions.
+**Human validation size:** 48 responses and one human annotator limit the strength of human-validation conclusions.
 
-Human–LLM disagreement: Human scores were substantially stricter than the independent LLM judge in the validation subset.
+**Human–LLM disagreement**: Human scores were substantially stricter than the independent LLM judge in the validation subset.
 
-Script-based analysis: Latin-script output can represent Romanized Hindi as well as English.
+**Script-based analysis:** Latin-script output can represent Romanized Hindi as well as English.
 
-CMI limitation: The lexicon-based Code-Mixing Index is a transparent heuristic, not gold-standard language identification.
+**CMI limitation:** The lexicon-based Code-Mixing Index is a transparent heuristic, not gold-standard language identification.
 
-Pairwise order sensitivity: Swap-order consistency varies across model pairs and should be considered when interpreting pairwise results.
+**Pairwise order sensitivity:** Swap-order consistency varies across model pairs and should be considered when interpreting pairwise results.
 
-Research Outputs
+**Research Outputs**
 
 The repository is organized so that a reader can move from:
 
@@ -577,10 +577,10 @@ Final tables & figures
 
 This separation makes the experimental workflow easier to inspect, reproduce, and extend.
 
-Citation
+**Citation**
 
 If you use this benchmark, code, or reported evaluation artifacts in academic work, please cite the associated research work.
 
-License
+**License**
 
 See the repository license and the licenses of the individual model checkpoints/datasets before redistribution or commercial use.
