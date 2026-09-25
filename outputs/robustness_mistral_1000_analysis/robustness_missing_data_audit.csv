@@ -1,0 +1,7 @@
+dimension,original_missing,perturbed_missing,paired_complete
+fluency,10,11,3979
+code_mixing_naturalness,10,11,3979
+hindi_grammar,10,11,3979
+prompt_adherence,10,11,3979
+spelling_consistency,10,11,3979
+overall,10,11,3979

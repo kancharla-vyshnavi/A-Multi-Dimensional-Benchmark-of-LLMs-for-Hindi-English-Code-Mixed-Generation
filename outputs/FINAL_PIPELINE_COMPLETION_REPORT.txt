@@ -1,0 +1,26 @@
+HINGLISH LLM PROJECT — FINAL PIPELINE REPORT
+======================================================================
+
+Generated: 2026-09-26 01:49:40
+
+1000 Benchmark Core: PASS
+Robustness: PASS
+Hinglish Metrics: PASS
+Final Statistics: PASS
+Inter-Judge Reliability: PASS
+E1-E10 Error Analysis: BLOCKED
+Missing-Data Sensitivity: PASS
+Final Research Tables: PASS
+Final Charts: PASS
+
+======================================================================
+METHODOLOGICAL NOTES
+======================================================================
+
+The main benchmark is the 1,000-prompt benchmark evaluated across four models, producing 4,000 controlled responses.
+
+Existing completed generation, judging, reliability, robustness and statistical outputs were reused. Expensive stages were not rerun.
+
+E1-E10 manual error analysis is BLOCKED because the completed manual annotation CSV was not found. No E1-E10 labels were fabricated.
+
+The project should not be reduced to a single 'best model' label. Final interpretation should describe comparative behavior across dimensions, evaluator agreement, robustness, linguistic metrics and qualitative findings.

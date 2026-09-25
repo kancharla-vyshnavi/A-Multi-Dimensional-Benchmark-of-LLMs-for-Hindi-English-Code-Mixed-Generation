@@ -1,5 +1,0 @@
-model,wins,losses,ties,total,win_rate
-HingGPT,24,176,4,204,0.1176
-Phi-3.5-mini,157,47,0,204,0.7696
-Qwen2.5-3B,97,105,2,204,0.4755
-Qwen2.5-7B,126,76,2,204,0.6176

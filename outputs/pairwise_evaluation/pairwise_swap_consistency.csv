@@ -1,7 +1,0 @@
-model_A,model_B,matched_prompts,consistent,inconsistent,consistency_rate
-HingGPT,Phi-3.5-mini,34,33,1,0.9706
-HingGPT,Qwen2.5-3B,34,22,12,0.6471
-HingGPT,Qwen2.5-7B,34,24,10,0.7059
-Phi-3.5-mini,Qwen2.5-3B,34,20,14,0.5882
-Phi-3.5-mini,Qwen2.5-7B,34,16,18,0.4706
-Qwen2.5-3B,Qwen2.5-7B,34,17,17,0.5

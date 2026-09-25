@@ -1,7 +1,0 @@
-criterion,n_paired,human_mean,mistral_mean,mean_difference_human_minus_mistral,spearman_rho,spearman_p,weighted_cohen_kappa_quadratic
-fluency,44,2.2727,3.7045,-1.4318,0.274,0.0719,0.084
-code_mixing_naturalness,44,2.0909,3.9318,-1.8409,0.1353,0.3813,0.0147
-hindi_grammar,44,2.1364,2.8409,-0.7045,-0.0171,0.9124,-0.0016
-prompt_adherence,44,1.9773,3.6136,-1.6364,-0.1297,0.4015,-0.0228
-spelling_consistency,44,2.0,3.7045,-1.7045,-0.1388,0.369,-0.0479
-overall,44,1.7727,3.5455,-1.7727,0.2823,0.0633,0.061

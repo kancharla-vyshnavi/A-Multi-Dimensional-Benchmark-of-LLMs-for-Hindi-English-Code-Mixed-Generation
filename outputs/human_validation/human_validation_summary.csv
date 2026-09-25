@@ -1,5 +1,0 @@
-model,human_fluency,human_code_mixing_naturalness,human_hindi_grammar,human_prompt_adherence,human_spelling_consistency,human_overall
-HingGPT,2.333,2.167,2.333,2.167,2.5,1.583
-Phi-3.5-mini,2.417,2.083,2.083,2.0,1.667,1.917
-Qwen2.5-3B,2.0,2.0,1.917,1.833,1.667,1.667
-Qwen2.5-7B,2.5,2.167,2.333,2.0,2.333,2.083

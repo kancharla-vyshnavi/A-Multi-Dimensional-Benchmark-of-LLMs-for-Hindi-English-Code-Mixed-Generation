@@ -1,0 +1,8001 @@
+row_index,model,raw_output
+0,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+1,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+2,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+3,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+4,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+5,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+6,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+7,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+8,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+9,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+10,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+11,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+12,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+13,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+14,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+15,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+16,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+17,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+18,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+19,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+20,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+21,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+22,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+23,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+24,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+25,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+26,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+27,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+28,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+29,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+30,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+31,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+32,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+33,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+34,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+35,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+36,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+37,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+38,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+39,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+40,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+41,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+42,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+43,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+44,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+45,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+46,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+47,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+48,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+49,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+50,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+51,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+52,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+53,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+54,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+55,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+56,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+57,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+58,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+59,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+60,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+61,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+62,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+63,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+64,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+65,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+66,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+67,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+68,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+69,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+70,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+71,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+72,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+73,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+74,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+75,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+76,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+77,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+78,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+79,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+80,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+81,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+82,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+83,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+84,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 5,
+  ""hindi_grammar"": 3,
+  ""prompt_adherence"": 3,
+  ""spelling_consistency"": 5,
+  ""overall"": 3
+}"
+85,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+86,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+87,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+88,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+89,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+90,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+91,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+92,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+93,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+94,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+95,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+96,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+97,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+98,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+99,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+100,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+101,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+102,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+103,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+104,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+105,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+106,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+107,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+108,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+109,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+110,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+111,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+112,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+113,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+114,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+115,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+116,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+117,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+118,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 5,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 3,
+  ""overall"": 2
+}"
+119,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+120,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+121,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+122,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+123,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+124,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+125,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+126,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+127,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+128,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+129,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+130,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+131,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+132,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+133,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+134,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+135,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+136,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+137,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+138,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+139,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+140,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+141,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+142,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+143,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+144,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+145,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+146,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+147,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+148,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+149,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+150,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+151,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+152,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+153,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+154,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+155,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+156,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+157,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+158,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+159,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+160,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+161,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+162,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+163,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+164,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+165,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+166,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+167,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+168,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+169,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+170,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+171,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+172,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+173,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+174,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+175,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+176,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+177,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+178,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+179,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+180,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+181,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+182,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+183,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+184,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+185,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+186,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+187,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+188,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+189,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+190,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+191,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+192,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+193,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+194,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+195,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+196,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+197,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+198,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+199,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+200,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+201,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+202,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+203,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+204,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+205,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+206,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+207,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+208,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+209,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+210,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+211,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+212,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+213,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+214,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+215,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+216,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+217,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+218,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+219,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+220,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+221,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+222,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+223,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+224,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+225,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+226,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+227,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+228,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+229,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+230,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+231,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+232,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+233,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+234,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+235,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+236,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+237,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+238,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+239,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+240,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+241,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+242,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+243,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+244,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+245,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+246,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+247,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+248,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+249,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+250,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+251,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+252,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+253,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+254,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+255,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+256,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+257,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+258,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+259,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+260,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+261,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+262,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+263,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+264,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+265,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+266,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+267,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 3,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 5,
+  ""spelling_consistency"": 5,
+  ""overall"": 3
+}"
+268,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+269,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+270,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+271,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+272,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+273,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+274,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+275,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+276,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+277,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+278,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+279,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+280,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+281,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+282,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+283,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+284,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+285,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+286,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+287,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+288,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+289,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+290,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+291,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+292,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+293,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+294,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+295,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+296,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+297,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+298,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+299,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+300,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+301,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+302,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+303,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 5,
+  ""hindi_grammar"": 3,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 5,
+  ""overall"": 3
+}"
+304,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+305,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+306,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+307,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+308,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+309,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+310,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+311,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+312,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+313,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+314,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+315,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+316,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+317,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+318,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+319,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+320,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+321,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+322,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+323,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+324,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+325,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+326,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+327,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+328,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+329,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+330,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+331,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+332,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+333,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+334,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+335,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+336,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+337,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+338,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+339,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+340,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+341,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+342,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+343,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+344,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+345,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+346,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+347,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+348,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+349,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+350,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+351,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+352,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+353,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+354,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+355,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+356,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+357,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+358,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+359,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+360,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+361,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+362,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+363,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+364,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+365,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+366,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+367,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+368,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+369,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+370,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+371,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+372,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+373,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+374,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+375,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+376,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+377,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+378,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+379,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+380,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+381,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+382,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+383,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+384,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+385,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+386,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+387,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+388,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+389,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+390,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+391,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+392,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+393,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+394,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+395,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+396,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+397,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+398,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+399,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+400,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+401,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+402,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+403,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+404,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+405,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+406,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+407,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+408,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+409,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+410,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+411,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+412,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+413,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+414,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+415,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+416,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+417,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+418,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+419,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+420,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+421,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+422,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+423,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+424,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+425,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+426,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+427,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+428,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+429,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+430,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+431,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+432,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+433,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+434,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+435,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+436,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+437,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+438,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+439,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+440,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+441,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+442,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+443,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+444,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+445,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+446,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+447,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+448,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+449,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+450,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+451,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+452,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+453,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+454,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+455,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+456,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+457,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+458,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+459,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+460,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+461,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+462,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+463,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+464,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+465,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+466,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+467,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+468,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+469,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+470,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+471,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+472,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+473,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+474,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+475,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+476,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+477,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+478,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+479,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+480,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+481,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+482,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+483,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+484,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+485,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+486,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+487,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+488,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+489,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+490,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+491,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+492,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+493,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+494,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+495,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+496,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+497,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+498,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+499,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+500,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+501,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+502,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+503,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+504,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+505,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+506,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+507,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 4,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 3,
+  ""spelling_consistency"": 3,
+  ""overall"": 3
+}"
+508,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+509,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+510,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+511,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+512,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+513,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+514,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+515,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+516,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+517,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+518,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+519,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+520,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+521,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+522,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+523,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+524,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+525,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+526,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+527,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+528,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+529,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+530,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+531,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+532,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+533,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+534,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+535,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+536,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+537,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+538,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+539,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+540,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+541,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+542,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+543,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+544,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+545,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+546,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+547,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+548,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+549,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+550,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+551,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+552,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+553,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+554,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+555,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+556,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+557,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+558,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+559,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+560,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+561,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+562,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+563,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+564,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+565,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+566,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+567,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+568,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+569,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+570,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+571,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+572,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+573,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+574,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+575,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+576,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+577,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+578,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+579,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+580,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+581,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+582,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+583,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+584,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+585,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+586,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+587,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+588,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 5,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 3,
+  ""spelling_consistency"": 3,
+  ""overall"": 3
+}"
+589,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+590,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+591,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+592,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+593,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+594,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+595,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+596,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+597,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+598,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+599,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+600,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+601,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+602,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+603,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+604,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+605,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+606,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+607,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+608,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+609,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+610,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+611,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+612,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+613,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+614,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+615,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+616,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+617,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+618,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+619,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+620,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+621,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+622,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+623,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 3,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 3,
+  ""overall"": 2
+}"
+624,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+625,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+626,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+627,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+628,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+629,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+630,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+631,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+632,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+633,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+634,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+635,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+636,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+637,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+638,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+639,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+640,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+641,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+642,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+643,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+644,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+645,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+646,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+647,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+648,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 5,
+  ""hindi_grammar"": 3,
+  ""prompt_adherence"": 5,
+  ""spelling_consistency"": 5,
+  ""overall"": 4
+}"
+649,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+650,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+651,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+652,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+653,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+654,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+655,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+656,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+657,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+658,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+659,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+660,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+661,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+662,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+663,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+664,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+665,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+666,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+667,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+668,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+669,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+670,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+671,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+672,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+673,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+674,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+675,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+676,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+677,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+678,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+679,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+680,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+681,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+682,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+683,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+684,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+685,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+686,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 3,
+  ""overall"": 1
+}"
+687,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+688,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+689,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+690,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+691,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+692,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+693,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+694,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+695,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+696,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+697,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+698,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+699,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+700,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+701,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+702,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+703,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+704,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+705,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+706,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+707,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+708,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+709,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+710,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+711,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+712,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 3,
+  ""hindi_grammar"": 3,
+  ""prompt_adherence"": 5,
+  ""spelling_consistency"": 5,
+  ""overall"": 4
+}"
+713,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+714,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+715,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+716,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+717,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+718,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+719,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+720,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+721,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+722,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+723,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+724,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+725,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+726,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+727,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+728,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+729,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+730,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+731,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+732,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+733,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+734,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+735,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+736,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+737,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+738,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+739,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+740,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+741,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+742,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+743,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+744,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+745,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+746,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+747,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+748,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+749,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+750,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+751,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+752,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+753,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+754,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+755,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+756,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+757,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+758,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+759,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+760,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+761,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 3,
+  ""hindi_grammar"": 3,
+  ""prompt_adherence"": 5,
+  ""spelling_consistency"": 5,
+  ""overall"": 4
+}"
+762,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+763,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+764,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+765,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+766,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+767,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+768,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+769,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+770,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+771,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+772,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+773,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+774,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+775,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+776,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+777,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+778,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+779,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+780,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+781,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+782,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+783,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+784,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+785,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+786,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+787,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+788,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+789,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+790,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+791,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+792,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+793,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+794,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+795,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+796,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+797,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+798,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+799,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+800,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+801,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+802,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+803,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+804,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+805,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+806,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+807,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+808,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+809,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+810,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+811,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+812,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+813,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+814,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+815,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+816,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+817,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+818,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+819,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+820,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+821,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+822,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+823,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 3,
+  ""hindi_grammar"": 3,
+  ""prompt_adherence"": 5,
+  ""spelling_consistency"": 5,
+  ""overall"": 3
+}"
+824,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+825,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+826,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+827,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+828,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+829,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+830,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+831,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+832,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+833,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+834,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+835,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+836,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+837,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+838,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+839,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+840,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+841,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+842,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+843,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+844,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+845,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+846,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+847,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+848,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+849,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+850,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+851,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+852,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+853,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+854,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 3,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 3,
+  ""spelling_consistency"": 3,
+  ""overall"": 2
+}"
+855,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+856,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+857,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+858,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 3,
+  ""overall"": 1
+}"
+859,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+860,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+861,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+862,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+863,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+864,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+865,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+866,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+867,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+868,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+869,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+870,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+871,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+872,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+873,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+874,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+875,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+876,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+877,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+878,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+879,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+880,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+881,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+882,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+883,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+884,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+885,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+886,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 3,
+  ""hindi_grammar"": 3,
+  ""prompt_adherence"": 5,
+  ""spelling_consistency"": 5,
+  ""overall"": 3
+}"
+887,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+888,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+889,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+890,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+891,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+892,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+893,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+894,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+895,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+896,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+897,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+898,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+899,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+900,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+901,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+902,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+903,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+904,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+905,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+906,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+907,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+908,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+909,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+910,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+911,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+912,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+913,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+914,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+915,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+916,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+917,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+918,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+919,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+920,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+921,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+922,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+923,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+924,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+925,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+926,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+927,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+928,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+929,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+930,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+931,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+932,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+933,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+934,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+935,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+936,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+937,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+938,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+939,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+940,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+941,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+942,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+943,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+944,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+945,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+946,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+947,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+948,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+949,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+950,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+951,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+952,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+953,Phi-3.5-mini,"{
+  ""fluency"": 3,
+  ""code_mixing_naturalness"": 5,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 3,
+  ""overall"": 2
+}"
+954,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+955,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+956,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+957,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+958,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+959,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+960,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+961,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+962,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+963,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+964,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+965,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 3,
+  ""overall"": 1
+}"
+966,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+967,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+968,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+969,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+970,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+971,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+972,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+973,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+974,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+975,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+976,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+977,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+978,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+979,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+980,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+981,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 3,
+  ""overall"": 1
+}"
+982,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+983,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+984,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+985,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+986,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+987,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+988,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+989,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+990,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+991,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 3,
+  ""overall"": 1
+}"
+992,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+993,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+994,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+995,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+996,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+997,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+998,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"
+999,Phi-3.5-mini,"{
+  ""fluency"": 1,
+  ""code_mixing_naturalness"": 1,
+  ""hindi_grammar"": 1,
+  ""prompt_adherence"": 1,
+  ""spelling_consistency"": 1,
+  ""overall"": 1
+}"

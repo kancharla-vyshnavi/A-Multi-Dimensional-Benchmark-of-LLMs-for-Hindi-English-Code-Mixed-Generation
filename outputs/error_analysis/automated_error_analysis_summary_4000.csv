@@ -1,0 +1,11 @@
+error,count,percentage
+E1_English_dominant,61,1.525
+E2_Hindi_dominant,648,16.2
+E3_Unnatural_code_switching,26,0.65
+E4_Grammatical_error,284,7.1
+E5_Repetition,242,6.05
+E6_Prompt_misunderstanding,1045,26.125
+E7_Incomplete_response,679,16.975
+E8_Spelling_transliteration_error,865,21.625
+E9_Hallucination_factual_error,0,0.0
+E10_Irrelevant_response,485,12.125

@@ -1,0 +1,20 @@
+{
+  "judge_model": "allenai/OLMo-2-0425-1B-Instruct",
+  "input_csv": "C:\\Users\\vyshu\\OneDrive\\Desktop\\HinglishLLM\\outputs\\controlled_1000\\benchmark_generations_1000.csv",
+  "output_csv": "C:\\Users\\vyshu\\OneDrive\\Desktop\\HinglishLLM\\outputs\\independent_judge_1000\\independent_olmo2_1b_judge_1000_results.csv",
+  "output_jsonl": "C:\\Users\\vyshu\\OneDrive\\Desktop\\HinglishLLM\\outputs\\independent_judge_1000\\independent_olmo2_1b_judge_1000_results.jsonl",
+  "total_input_rows": 4000,
+  "responses_per_model": 1000,
+  "batch_size": 2,
+  "max_input_tokens": 512,
+  "max_new_tokens": 96,
+  "seed": 42,
+  "scores": [
+    "fluency",
+    "code_mixing_naturalness",
+    "hindi_grammar",
+    "prompt_adherence",
+    "spelling_consistency",
+    "overall"
+  ]
+}

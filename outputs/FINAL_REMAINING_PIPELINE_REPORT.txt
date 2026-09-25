@@ -1,0 +1,22 @@
+HINGLISH LLM — FINAL REMAINING PIPELINE REPORT
+======================================================================
+
+Generated: 2026-09-26 01:50:54
+
+E1-E10: BLOCKED
+Hinglish Metrics: PASS
+Final Sensitivity: PASS
+Final Tables: PASS
+Final Figures: PASS
+
+======================================================================
+IMPORTANT
+======================================================================
+
+Existing 1,000-prompt benchmark and 4,000-response evaluation outputs were reused.
+
+No CPT, controlled generation, Mistral judging, OLMo judging, reliability or main statistical analysis was rerun.
+
+E1-E10 is blocked because the completed manual annotation CSV is absent. The annotation interface was not treated as annotation data.
+
+No unsupported E1-E10 labels were fabricated.

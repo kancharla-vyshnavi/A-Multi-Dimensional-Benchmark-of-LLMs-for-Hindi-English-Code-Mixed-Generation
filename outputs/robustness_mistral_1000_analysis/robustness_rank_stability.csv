@@ -1,0 +1,7 @@
+dimension,rank_spearman,rank_spearman_p,exact_rank_order_stable,original_order,perturbed_order
+fluency,0.7999999999999999,0.2000000000000001,False,Qwen2.5-3B > Qwen2.5-7B > HingGPT > Phi-3.5-mini,Qwen2.5-3B > Qwen2.5-7B > Phi-3.5-mini > HingGPT
+code_mixing_naturalness,0.39999999999999997,0.6000000000000001,False,Qwen2.5-3B > Qwen2.5-7B > HingGPT > Phi-3.5-mini,Qwen2.5-3B > Phi-3.5-mini > Qwen2.5-7B > HingGPT
+hindi_grammar,0.39999999999999997,0.6000000000000001,False,Qwen2.5-3B > Qwen2.5-7B > HingGPT > Phi-3.5-mini,Qwen2.5-3B > Phi-3.5-mini > Qwen2.5-7B > HingGPT
+prompt_adherence,0.39999999999999997,0.6000000000000001,False,Qwen2.5-3B > Qwen2.5-7B > HingGPT > Phi-3.5-mini,Qwen2.5-3B > Phi-3.5-mini > Qwen2.5-7B > HingGPT
+spelling_consistency,0.6000000000000001,0.4,False,Qwen2.5-7B > Qwen2.5-3B > HingGPT > Phi-3.5-mini,Qwen2.5-3B > Qwen2.5-7B > Phi-3.5-mini > HingGPT
+overall,0.39999999999999997,0.6000000000000001,False,Qwen2.5-3B > Qwen2.5-7B > HingGPT > Phi-3.5-mini,Qwen2.5-3B > Phi-3.5-mini > Qwen2.5-7B > HingGPT
