@@ -1,0 +1,37 @@
+Dimension,Comparison,Matched_N,Wilcoxon_Statistic_W,Raw_p_value,Holm_Adjusted_p,Significant_Holm_0_05,Mean_Difference,Mean_Diff_95CI,Rank_Biserial_Effect_Size
+Fluency,HingGPT vs Phi-3.5-mini,995,54739.0,0.0000e+00,0.0000e+00,yes,0.293,"[0.256, 0.336]",0.556
+Fluency,HingGPT vs Qwen2.5-3B,989,35177.5,0.0000e+00,0.0000e+00,yes,-0.706,"[-0.753, -0.659]",-0.81
+Fluency,HingGPT vs Qwen2.5-7B,995,60730.5,0.0000e+00,0.0000e+00,yes,-0.476,"[-0.524, -0.425]",-0.631
+Fluency,Phi-3.5-mini vs Qwen2.5-3B,994,7026.0,0.0000e+00,0.0000e+00,yes,-0.998,"[-1.034, -0.960]",-0.968
+Fluency,Phi-3.5-mini vs Qwen2.5-7B,1000,18504.5,0.0000e+00,0.0000e+00,yes,-0.77,"[-0.810, -0.730]",-0.909
+Fluency,Qwen2.5-3B vs Qwen2.5-7B,994,71457.5,0.0000e+00,0.0000e+00,yes,0.227,"[0.181, 0.272]",0.385
+Code-Mixing Naturalness,HingGPT vs Phi-3.5-mini,995,50841.5,0.0000e+00,0.0000e+00,yes,0.369,"[0.326, 0.416]",0.619
+Code-Mixing Naturalness,HingGPT vs Qwen2.5-3B,989,49279.5,0.0000e+00,0.0000e+00,yes,-0.706,"[-0.766, -0.645]",-0.729
+Code-Mixing Naturalness,HingGPT vs Qwen2.5-7B,995,78970.0,0.0000e+00,0.0000e+00,yes,-0.489,"[-0.549, -0.426]",-0.546
+Code-Mixing Naturalness,Phi-3.5-mini vs Qwen2.5-3B,994,13504.5,0.0000e+00,0.0000e+00,yes,-1.076,"[-1.125, -1.027]",-0.937
+Code-Mixing Naturalness,Phi-3.5-mini vs Qwen2.5-7B,1000,29162.0,0.0000e+00,0.0000e+00,yes,-0.859,"[-0.908, -0.808]",-0.861
+Code-Mixing Naturalness,Qwen2.5-3B vs Qwen2.5-7B,994,103664.5,1.4512e-10,1.4512e-10,yes,0.217,"[0.159, 0.282]",0.27
+Hindi Grammar,HingGPT vs Phi-3.5-mini,995,36355.0,0.0000e+00,0.0000e+00,yes,0.313,"[0.277, 0.349]",0.669
+Hindi Grammar,HingGPT vs Qwen2.5-3B,989,36955.5,0.0000e+00,0.0000e+00,yes,-0.649,"[-0.701, -0.599]",-0.788
+Hindi Grammar,HingGPT vs Qwen2.5-7B,995,52948.5,0.0000e+00,0.0000e+00,yes,-0.539,"[-0.589, -0.488]",-0.689
+Hindi Grammar,Phi-3.5-mini vs Qwen2.5-3B,994,7206.0,0.0000e+00,0.0000e+00,yes,-0.961,"[-1.004, -0.921]",-0.964
+Hindi Grammar,Phi-3.5-mini vs Qwen2.5-7B,1000,10640.0,0.0000e+00,0.0000e+00,yes,-0.852,"[-0.894, -0.807]",-0.944
+Hindi Grammar,Qwen2.5-3B vs Qwen2.5-7B,994,120586.0,0.0005,0.0005,yes,0.107,"[0.055, 0.163]",0.146
+Prompt Adherence,HingGPT vs Phi-3.5-mini,995,105174.5,1.3504e-05,1.3504e-05,yes,-0.095,"[-0.140, -0.045]",-0.187
+Prompt Adherence,HingGPT vs Qwen2.5-3B,989,41053.5,0.0000e+00,0.0000e+00,yes,-0.903,"[-0.969, -0.838]",-0.79
+Prompt Adherence,HingGPT vs Qwen2.5-7B,995,79056.5,0.0000e+00,0.0000e+00,yes,-0.589,"[-0.658, -0.515]",-0.57
+Prompt Adherence,Phi-3.5-mini vs Qwen2.5-3B,994,41075.5,0.0000e+00,0.0000e+00,yes,-0.806,"[-0.860, -0.751]",-0.807
+Prompt Adherence,Phi-3.5-mini vs Qwen2.5-7B,1000,80091.5,0.0000e+00,0.0000e+00,yes,-0.494,"[-0.553, -0.433]",-0.571
+Prompt Adherence,Qwen2.5-3B vs Qwen2.5-7B,994,112607.5,6.6613e-16,1.3323e-15,yes,0.309,"[0.238, 0.383]",0.326
+Spelling Consistency,HingGPT vs Phi-3.5-mini,995,34559.5,0.0000e+00,0.0000e+00,yes,0.657,"[0.608, 0.710]",0.785
+Spelling Consistency,HingGPT vs Qwen2.5-3B,989,32125.0,0.0000e+00,0.0000e+00,yes,-0.811,"[-0.872, -0.752]",-0.812
+Spelling Consistency,HingGPT vs Qwen2.5-7B,995,30135.0,0.0000e+00,0.0000e+00,yes,-0.831,"[-0.886, -0.770]",-0.829
+Spelling Consistency,Phi-3.5-mini vs Qwen2.5-3B,994,2667.5,0.0000e+00,0.0000e+00,yes,-1.464,"[-1.508, -1.423]",-0.988
+Spelling Consistency,Phi-3.5-mini vs Qwen2.5-7B,1000,941.0,0.0000e+00,0.0000e+00,yes,-1.488,"[-1.527, -1.450]",-0.996
+Spelling Consistency,Qwen2.5-3B vs Qwen2.5-7B,994,112628.5,0.5838,0.5838,no,-0.025,"[-0.073, 0.026]",-0.024
+Overall Quality,HingGPT vs Phi-3.5-mini,995,83089.5,9.7346e-10,9.7346e-10,yes,0.126,"[0.089, 0.163]",0.272
+Overall Quality,HingGPT vs Qwen2.5-3B,989,37749.0,0.0000e+00,0.0000e+00,yes,-0.702,"[-0.754, -0.651]",-0.792
+Overall Quality,HingGPT vs Qwen2.5-7B,995,76815.5,0.0000e+00,0.0000e+00,yes,-0.478,"[-0.532, -0.420]",-0.577
+Overall Quality,Phi-3.5-mini vs Qwen2.5-3B,994,18647.0,0.0000e+00,0.0000e+00,yes,-0.826,"[-0.869, -0.783]",-0.909
+Overall Quality,Phi-3.5-mini vs Qwen2.5-7B,1000,39371.5,0.0000e+00,0.0000e+00,yes,-0.604,"[-0.651, -0.557]",-0.779
+Overall Quality,Qwen2.5-3B vs Qwen2.5-7B,994,99335.0,9.6412e-13,1.9282e-12,yes,0.22,"[0.165, 0.281]",0.3

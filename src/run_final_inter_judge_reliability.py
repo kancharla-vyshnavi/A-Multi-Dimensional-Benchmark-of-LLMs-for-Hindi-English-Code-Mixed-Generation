@@ -24,12 +24,12 @@ OUTPUT_DIR = os.path.join(
 
 MISTRAL_FILE = os.path.join(
     JUDGE_DIR,
-    "independent_mistral_judge_1000_FINAL.csv",
+    "independent_mistral_judge__FINAL.csv",
 )
 
 OLMO_FILE = os.path.join(
     JUDGE_DIR,
-    "independent_olmo2_1b_judge_1000_FINAL.csv",
+    "independent_olmo2_1b_judge__CORRECTED_FINAL.csv",
 )
 
 

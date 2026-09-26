@@ -1,0 +1,7 @@
+Dimension,Matched_Pairs_N,Quadratic_Weighted_Kappa_QWK,Spearman_Rho,Agreement_Interpretation
+Fluency,3989,-0.142,-0.265,Inverse correlation / divergence (-0.142)
+Code-Mixing Naturalness,3989,-0.139,-0.311,Inverse correlation / divergence (-0.139)
+Hindi Grammar,3989,0.008,0.017,Slight agreement (0.008)
+Prompt Adherence,3989,-0.11,-0.279,Inverse correlation / divergence (-0.110)
+Spelling Consistency,3989,-0.166,-0.281,Inverse correlation / divergence (-0.166)
+Overall Quality,3989,-0.108,-0.341,Inverse correlation / divergence (-0.108)

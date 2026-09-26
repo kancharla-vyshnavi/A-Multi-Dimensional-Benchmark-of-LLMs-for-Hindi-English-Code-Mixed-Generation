@@ -1,0 +1,25 @@
+Model,Dimension,Mistral_Mean,Mistral_SD,OLMo_Mean,OLMo_SD,Combined_Mean,Combined_SD,Matched_N
+HingGPT,Fluency,2.123,1.003,3.441,0.606,2.781,0.557,995
+HingGPT,Code-Mixing Naturalness,2.4,1.279,4.213,0.637,3.307,0.672,995
+HingGPT,Hindi Grammar,1.644,0.631,3.882,0.809,2.764,0.515,995
+HingGPT,Prompt Adherence,1.783,1.057,3.845,0.94,2.815,0.708,995
+HingGPT,Spelling Consistency,2.868,1.426,4.339,0.738,3.604,0.806,995
+HingGPT,Overall Quality,1.99,0.951,4.182,0.613,3.086,0.574,995
+Phi-3.5-mini,Fluency,1.028,0.235,3.946,0.6,2.487,0.323,1000
+Phi-3.5-mini,Code-Mixing Naturalness,1.041,0.363,4.834,0.383,2.938,0.266,1000
+Phi-3.5-mini,Hindi Grammar,1.014,0.167,3.889,0.464,2.452,0.246,1000
+Phi-3.5-mini,Prompt Adherence,1.032,0.333,4.789,0.63,2.91,0.361,1000
+Phi-3.5-mini,Spelling Consistency,1.054,0.411,4.839,0.419,2.946,0.297,1000
+Phi-3.5-mini,Overall Quality,1.027,0.242,4.894,0.336,2.96,0.207,1000
+Qwen2.5-3B,Fluency,3.533,0.921,3.439,0.579,3.485,0.526,994
+Qwen2.5-3B,Code-Mixing Naturalness,3.979,1.211,4.05,0.778,4.014,0.726,994
+Qwen2.5-3B,Hindi Grammar,2.943,0.954,3.883,0.809,3.412,0.625,994
+Qwen2.5-3B,Prompt Adherence,3.741,1.399,3.696,0.771,3.717,0.812,994
+Qwen2.5-3B,Spelling Consistency,4.648,0.876,4.172,0.846,4.41,0.595,994
+Qwen2.5-3B,Overall Quality,3.563,1.081,4.011,0.727,3.787,0.641,994
+Qwen2.5-7B,Fluency,3.251,0.991,3.264,0.488,3.258,0.585,1000
+Qwen2.5-7B,Code-Mixing Naturalness,3.682,1.235,3.91,0.684,3.796,0.77,1000
+Qwen2.5-7B,Hindi Grammar,2.61,0.942,3.997,0.897,3.304,0.658,1000
+Qwen2.5-7B,Prompt Adherence,3.072,1.531,3.737,0.746,3.404,0.913,1000
+Qwen2.5-7B,Spelling Consistency,4.664,0.837,4.205,0.873,4.434,0.568,1000
+Qwen2.5-7B,Overall Quality,3.173,1.139,3.956,0.712,3.564,0.722,1000

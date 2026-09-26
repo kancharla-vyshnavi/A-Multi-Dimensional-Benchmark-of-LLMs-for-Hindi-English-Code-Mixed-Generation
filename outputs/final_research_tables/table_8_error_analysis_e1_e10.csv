@@ -1,0 +1,11 @@
+Error_Code,Error_Category,Description,Total_Count,Percentage_of_Corpus,HingGPT_Count,Phi_3_5_mini_Count,Qwen2_5_3B_Count,Qwen2_5_7B_Count,Automated_Detector_Note
+E1,E1_English_dominant,English-dominant output (avoids Hindi),61,1.525,6,6,19,30,
+E2,E2_Hindi_dominant,Hindi-dominant output (excessive Hindi / Devanagari),648,16.2,53,264,180,151,
+E3,E3_Unnatural_code_switching,Unnatural or awkward code-switching boundary,26,0.65,9,1,10,6,
+E4,E4_Grammatical_error,Grammatical agreement / postposition error,284,7.1,98,73,68,45,
+E5,E5_Repetition,Token / phrase / emoji repetition loop,242,6.05,36,117,41,48,
+E6,E6_Prompt_misunderstanding,Prompt misunderstanding / meta-instruction leak,1045,26.125,156,351,215,323,
+E7,E7_Incomplete_response,Incomplete response (truncated mid-sentence),679,16.975,163,275,106,135,
+E8,E8_Spelling_transliteration_error,Spelling / Romanized transliteration error,865,21.625,2,678,114,71,
+E9,E9_Hallucination_factual_error,Hallucination / factual error (automated detector flagged 0 cases),0,0.0,0,0,0,0,The automated detector flagged no hallucination/factual-error cases.
+E10,E10_Irrelevant_response,Irrelevant response / complete topical drift,485,12.125,135,236,91,23,

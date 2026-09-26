@@ -1,3 +1,471 @@
+I am working on my research project:
+
+**“A Multi-Dimensional Benchmark of LLMs for Hindi-English Code-Mixed Generation”**
+
+Project path:
+`C:\Users\vyshu\OneDrive\Desktop\HinglishLLM`
+
+I want to COMPLETELY FINISH the research project and paper.
+
+Do NOT modify, delete, overwrite, or regenerate anything blindly. First inspect the existing files/results, verify them, and then tell me exactly what is complete, what is missing, and what needs to be generated.
+
+## MODELS
+
+Evaluate these four models:
+
+1. HingGPT
+2. Phi-3.5-mini
+3. Qwen2.5-3B
+4. Qwen2.5-7B
+
+## DATA / BENCHMARK
+
+Current known information:
+
+* Usable corpus: 14,601
+* Hinglish-Bench: 1,000 prompts
+* Same 1,000 prompts given to all four models
+* Total controlled generations: 4,000
+* 1,000 generations per model
+
+The controlled generation file is:
+
+`outputs\controlled_1000\benchmark_generations_.csv`
+
+Do NOT assume any other filename without checking.
+
+## JUDGES
+
+Judge 1:
+`mistralai/Mistral-7B-Instruct-v0.3`
+
+Judge 2:
+`allenai/OLMo-2-0425-1B-Instruct`
+
+Expected dimensions:
+
+* Fluency
+* Code-mixing naturalness
+* Hindi grammar
+* Prompt adherence
+* Spelling consistency
+* Overall
+
+Known judge coverage:
+
+* Mistral: 3,990 valid, 10 missing
+* OLMo-2-1B: 3,999 valid, 1 missing
+* No imputation
+
+Final judge files must be verified from the actual project files.
+
+## IMPORTANT: NO HUMAN AUDIT
+
+There is NO secondary human audit of 48 responses in this project.
+
+Do not add a human-audit section.
+Do not claim human validation.
+Do not invent human evaluation.
+
+## MAIN EVALUATION
+
+First verify the actual final judge CSVs.
+
+Calculate/verify:
+
+* model-wise means for all six dimensions
+* model-wise standard deviations if available/appropriate
+* valid N
+* missing N
+* complete-case N
+
+Create the main evaluation table:
+
+Model ×
+
+* Fluency
+* Code-mixing
+* Hindi grammar
+* Prompt adherence
+* Spelling
+* Overall
+
+Known Overall means are:
+
+* HingGPT = 1.735
+* Phi-3.5-mini = 2.206
+* Qwen2.5-3B = 2.647
+* Qwen2.5-7B = 2.765
+
+Do not call Qwen2.5-7B a statistically significant winner.
+Describe it only as having the highest observed mean Overall score unless statistical testing supports something stronger.
+
+## INTER-JUDGE RELIABILITY
+
+Verify/reproduce:
+
+| Dimension | QWK | Spearman |
+| Fluency | 0.090 | 0.204 |
+| Code-mixing | 0.003 | 0.020 |
+| Hindi grammar | -0.077 | -0.292 |
+| Prompt adherence | -0.017 | -0.060 |
+| Spelling | -0.183 | -0.322 |
+| Overall | -0.024 | -0.067 |
+
+Use actual project outputs as the source of truth.
+
+Do not hide or artificially improve low agreement.
+
+## JUDGE DISAGREEMENT CALIBRATION
+
+From the actual 4,000 controlled generations:
+
+* select 15–20 clear-cut responses
+* include obvious good responses
+* obvious bad responses
+* obvious prompt-adherence failures
+* obvious grammar/spelling cases
+* obvious natural/unnatural code-switching cases
+
+Compare Mistral and OLMo judgments on exactly those examples.
+
+Create a calibration table:
+
+Prompt ID | Model | Prompt | Response | Mistral scores | OLMo scores | Difference | Interpretation
+
+Do not invent examples.
+Use actual generated responses.
+
+Then summarize the likely causes of disagreement based on the observed examples.
+
+## ROBUSTNESS ANALYSIS
+
+Verify the perturbed-rubric Mistral evaluation.
+
+The perturbed rubric must:
+
+* judge only the response
+* not infer model identity
+* not compare models
+* evaluate dimensions independently
+* distinguish natural code-switching from unnecessary switching
+* judge Hindi grammar only where Hindi is present
+* evaluate actual spelling
+* not reward/penalize length
+
+Calculate/verify:
+
+* Spearman original vs perturbed
+* weighted Cohen’s kappa
+* mean absolute score change
+* signed mean change
+* model-level changes
+* rank/order stability
+* bootstrap 95% CIs
+
+Create the robustness table and graph.
+
+## STATISTICAL ANALYSIS
+
+Verify actual statistical outputs.
+
+For every dimension perform:
+
+### Friedman test
+
+Report:
+
+* statistic
+* df
+* p-value
+
+### Pairwise comparisons
+
+All six model pairs:
+
+1. HingGPT vs Phi-3.5-mini
+2. HingGPT vs Qwen2.5-3B
+3. HingGPT vs Qwen2.5-7B
+4. Phi-3.5-mini vs Qwen2.5-3B
+5. Phi-3.5-mini vs Qwen2.5-7B
+6. Qwen2.5-3B vs Qwen2.5-7B
+
+For each report:
+
+* Wilcoxon statistic
+* raw p-value
+* Holm-adjusted p-value
+* rank-biserial effect size
+* bootstrap 95% CI if available
+
+Known complete-prompt N for combined analysis:
+
+989 per dimension.
+
+Do not invent statistical values.
+
+Also distinguish:
+
+* Mistral-only analysis
+* OLMo-only analysis
+* exploratory combined analysis
+
+because inter-judge agreement is low.
+
+## ERROR ANALYSIS
+
+Verify the existing E1–E10 results.
+
+Known categories:
+
+E1 English-dominant
+E2 Hindi-dominant
+E3 Unnatural code-switching
+E4 Grammatical error
+E5 Repetition
+E6 Prompt misunderstanding
+E7 Incomplete response
+E8 Spelling/transliteration error
+E9 Hallucination/factual error
+E10 Irrelevant response
+
+Known counts:
+
+* E1 = 61 (1.525%)
+* E2 = 648 (16.200%)
+* E3 = 26 (0.650%)
+* E4 = 284 (7.100%)
+* E5 = 242 (6.050%)
+* E6 = 1045 (26.125%)
+* E7 = 679 (16.975%)
+* E8 = 865 (21.625%)
+* E9 = 0 (0.000%)
+* E10 = 485 (12.125%)
+
+Verify these from actual files.
+
+IMPORTANT:
+E9 = 0 must be described as:
+“the automated detector flagged no hallucination/factual-error cases.”
+
+Do NOT claim that the models produced zero hallucinations.
+
+## HINGLISH-SPECIFIC METRICS
+
+Verify:
+
+* Hindi usage
+* English usage
+* Hindi-English switching
+* switching behavior
+* transliteration/spelling consistency
+* code-mixing index
+
+Inspect:
+
+`outputs\hinglish_metrics\`
+
+and all related scripts.
+
+Create a model-level linguistic metrics table.
+
+## REQUIRED TABLES
+
+The final project/paper should contain:
+
+Table 1 — Dataset and benchmark statistics
+
+Table 2 — Model-wise evaluation results
+
+Table 3 — Inter-judge reliability
+
+Table 4 — Robustness analysis
+
+Table 5 — Friedman test results
+
+Table 6 — Pairwise Wilcoxon + Holm + effect sizes
+
+Table 7 — E1–E10 error analysis
+
+Table 8 — Hinglish-specific linguistic metrics
+
+Table 9 — Missing-data summary
+
+Verify whether each already exists.
+If it exists, validate it.
+If missing, generate it only from verified source data.
+
+## REQUIRED FIGURES
+
+Final figure set:
+
+Figure 1 — Overall methodology pipeline
+
+Figure 2 — Model × dimension evaluation heatmap
+
+Figure 3 — Inter-judge agreement
+
+Figure 4 — Robustness analysis
+
+Figure 5 — Pairwise effect sizes
+
+Figure 6 — E1–E10 error distribution
+
+Figure 7 — Hinglish linguistic characteristics
+
+Do NOT generate fake, estimated, illustrative, or guessed data.
+
+If a graph's source data is missing, tell me exactly which source is missing.
+
+## TRAIN / VALIDATION ISSUE
+
+There is a number “277,431” associated with the project.
+
+DO NOT assume that it means 277,431 training samples.
+
+Inspect the actual project scripts, configs, logs, dataset files, trainer states, and model-output naming to determine exactly what 277,431 represents.
+
+The current `data\processed` directory appears to contain:
+
+`data\processed\cpt\validation.jsonl`
+
+Do not invent a split script if none exists.
+
+Report the exact evidence for the origin of 277,431.
+
+## CHATBOT
+
+Current chatbot uses:
+
+`Qwen/Qwen2.5-7B-Instruct`
+
+But the intended final chatbot should use:
+
+Base:
+`Qwen/Qwen2.5-3B-Instruct`
+
+with the QLoRA adapter:
+
+`qwen25_3b_cpt/checkpoint-17340`
+
+using:
+
+* AutoTokenizer
+* AutoModelForCausalLM
+* PeftModel
+
+Before modifying `chatbot\app.py`:
+
+1. Show the current file.
+2. Show the exact diff.
+3. Wait for my approval.
+4. Only then modify it.
+
+Never silently modify it.
+
+## PAPER CONTENT
+
+After the evaluation is verified, prepare:
+
+### Results
+
+Include:
+
+* model comparison
+* dimension-level results
+* overall scores
+* judge agreement
+* robustness
+* statistical significance
+* effect sizes
+* error analysis
+* Hinglish linguistic characteristics
+
+### Discussion
+
+Discuss:
+
+* observed differences between models
+* judge disagreement
+* likely reasons for disagreement based on the 15–20 calibration examples
+* code-mixing behavior
+* prompt-following problems
+* spelling/transliteration issues
+* implications of error patterns
+
+Do not overclaim.
+
+### Limitations
+
+Must explicitly discuss:
+
+1. Low inter-judge reliability
+2. Differences between Mistral-7B and OLMo-2-1B
+3. Smaller OLMo-2-1B judge
+4. No statistically significant overall winner after Holm correction
+5. Qwen2.5-7B having the highest observed mean Overall score only
+6. Automated E9 detector limitations
+7. Missing judge outputs and complete-case handling
+8. Any other limitations actually supported by the project
+
+Do NOT include the nonexistent 48-response human audit.
+
+### Conclusion
+
+Give a concise evidence-based conclusion without claiming an unsupported winner.
+
+## CLEANUP
+
+Do not delete anything automatically.
+
+For every cleanup candidate:
+
+* show path
+* explain why it is redundant/temporary
+* ask for confirmation before deletion
+
+Keep important final outputs.
+
+## FINAL OUTPUT
+
+At the end give me a clear checklist:
+
+### COMPLETE
+
+* dataset
+* benchmark
+* generation
+* Mistral evaluation
+* OLMo evaluation
+* reliability
+* robustness
+* statistics
+* error analysis
+* linguistic metrics
+* tables
+* figures
+* chatbot
+* paper sections
+
+### MISSING
+
+List only genuinely missing items.
+
+### NEEDS VERIFICATION
+
+List items whose files exist but whose correctness still needs checking.
+
+### FINAL PAPER PACKAGE
+
+Give the exact final tables, figures, scripts, outputs, and paper sections that should remain in the project.
+
+IMPORTANT:
+Work from the actual project files.
+Do not fabricate values.
+Do not silently correct inconsistencies.
+Do not delete files.
+Do not generate graphs until their underlying data has been verified.
+Do not claim statistical significance unless the actual statistical test supports it.
 # **A Multi-Dimensional Benchmark of LLMs for Hindi-English Code-Mixed Generation**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

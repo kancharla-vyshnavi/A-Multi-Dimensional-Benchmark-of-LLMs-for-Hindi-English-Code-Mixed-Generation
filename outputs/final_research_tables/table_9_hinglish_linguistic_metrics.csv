@@ -1,0 +1,5 @@
+Model,Total_Responses,Avg_Lexical_CMI_Percent,Avg_English_Lexical_Share,Avg_Hindi_Lexical_Share,Both_Languages_Present_Rate,Avg_Latin_Script_Share,Avg_Devanagari_Script_Share,Mixed_Script_Rate,Devanagari_Present_Rate
+HingGPT,1000,19.07,0.594,0.26,77.3,0.884,0.0,0.0,0.0
+Phi-3.5-mini,1000,15.71,0.34,0.445,51.3,0.822,0.001,0.3,0.3
+Qwen2.5-3B,1000,15.63,0.554,0.353,67.0,0.965,0.027,3.0,4.3
+Qwen2.5-7B,1000,13.73,0.692,0.295,68.3,0.999,0.001,0.2,0.2

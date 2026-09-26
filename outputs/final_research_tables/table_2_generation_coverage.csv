@@ -1,0 +1,6 @@
+Model,Total_Generated,Mistral_Valid,Mistral_Missing,OLMo_Valid,OLMo_Missing,Joint_Valid_Complete
+HingGPT,1000,995,5,1000,0,995
+Phi-3.5-mini,1000,1000,0,1000,0,1000
+Qwen2.5-3B,1000,995,5,999,1,994
+Qwen2.5-7B,1000,1000,0,1000,0,1000
+Total / Combined,4000,3990,10,3999,1,3989

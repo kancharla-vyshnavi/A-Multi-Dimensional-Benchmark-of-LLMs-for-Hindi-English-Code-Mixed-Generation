@@ -1,0 +1,10 @@
+Parameter,Value,Description
+Usable Source Corpus (CPT Validation Pool),"14,601 utterances",Hinglish conversational & text utterances from CPT validation split
+Benchmark Size (Hinglish-Bench),"1,000 prompts","Unique, deterministic random sample (seed 42) from usable corpus"
+Evaluated Models,4 models,"HingGPT, Phi-3.5-mini, Qwen2.5-3B, Qwen2.5-7B"
+Generations Per Model,"1,000 responses",Exact matched prompts provided to each model
+Total Controlled Generations,"4,000 responses",Stored in outputs/controlled_1000/benchmark_generations_.csv
+Generation Sampling Parameters,"Temp=0.7, Top-p=0.9","Repetition penalty=1.1, Max input=512, Max new tokens=50"
+Independent Evaluators,2 LLM Judges,Mistral-7B-Instruct-v0.3 & OLMo-2-0425-1B-Instruct
+Evaluation Dimensions,6 core dimensions,"Fluency, Code-mixing naturalness, Hindi grammar, Prompt adherence, Spelling consistency, Overall (1–5 scale)"
+Human Validation / Audit,None (0 responses),No human audit performed; automated evaluation only
