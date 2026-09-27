@@ -1,4 +1,4 @@
-# A Multi-Dimensional Benchmark of LLMs for Hindi-English Code-Mixed Generation
+# HinglishEval: A Multi-Dimensional Benchmark for Hindi-English Code-Mixed Generation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
