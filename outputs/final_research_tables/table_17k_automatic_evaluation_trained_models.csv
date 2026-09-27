@@ -1,0 +1,5 @@
+Model,Perplexity,Distinct-1,Distinct-2,Repetition Rate
+HingGPT,171.232,0.0777,0.4055,0.4358
+Phi-3.5-mini,50.7891,0.2021,0.7509,0.004
+Qwen2.5-3B,74.0219,0.2569,0.7778,0.0545
+Qwen2.5-7B,55.129,0.3401,0.8532,0.0332
