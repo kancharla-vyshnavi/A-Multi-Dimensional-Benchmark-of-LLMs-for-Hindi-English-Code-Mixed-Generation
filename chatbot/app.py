@@ -1,438 +1,194 @@
-"""
-HinglishLLM Terminal-Only Multilingual Conversational Chatbot
-
-Features:
-- Terminal only
-- Qwen2.5-3B-Instruct
-- Project CPT/QLoRA adapter checkpoint-17340
-- Fast generation
-- English -> English
-- Hindi -> Hindi
-- Hinglish -> Hinglish
-- Telugu -> Telugu
-- Romanized Telugu -> Romanized Telugu
-- Keeps recent conversation history
-- Detailed error handling
-- exit / quit / bye supported
-"""
+# HinglishLLM Terminal Multilingual Chatbot (final)
+#
+# - Qwen2.5-3B-Instruct + CPT/QLoRA adapter (checkpoint-17340), merged for speed
+# - English / Hindi / Hinglish / Telugu / Romanized Telugu -> same style reply
+# - Streaming output, short history, error handling
+# - Run:  python chatbot\app.py          (chat)
+#         python chatbot\app.py --test   (automated test)
 
 import sys
-import io
 import re
 import traceback
 from pathlib import Path
 
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import (
+    AutoTokenizer,
+    AutoModelForCausalLM,
+    TextStreamer,
+)
 from peft import PeftModel
 
 
-# ============================================================
-# WINDOWS UTF-8
-# ============================================================
-
-if sys.platform.startswith("win"):
+# ---------------- Windows UTF-8 ----------------
+for _s in (sys.stdout, sys.stderr, sys.stdin):
     try:
-        sys.stdout = io.TextIOWrapper(
-            sys.stdout.buffer,
-            encoding="utf-8",
-            errors="replace"
-        )
-        sys.stderr = io.TextIOWrapper(
-            sys.stderr.buffer,
-            encoding="utf-8",
-            errors="replace"
-        )
+        _s.reconfigure(encoding="utf-8", errors="replace")
     except Exception:
         pass
 
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
-
+# ---------------- CONFIG ----------------
 BASE_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"
-
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 
-# Possible adapter locations
 CANDIDATE_ADAPTER_PATHS = [
-    PROJECT_DIR
-    / "models"
-    / "qwen25_3b_cpt"
-    / "qwen25_3b_cpt"
-    / "checkpoint-17340",
-
-    PROJECT_DIR
-    / "models"
-    / "qwen25_3b_cpt"
-    / "checkpoint-17340",
-
-    PROJECT_DIR
-    / "data"
-    / "model"
-    / "qwen25_3b_cpt"
-    / "checkpoint-17340",
+    PROJECT_DIR / "models" / "qwen25_3b_cpt" / "qwen25_3b_cpt" / "checkpoint-17340",
+    PROJECT_DIR / "models" / "qwen25_3b_cpt" / "checkpoint-17340",
+    PROJECT_DIR / "data" / "model" / "qwen25_3b_cpt" / "checkpoint-17340",
 ]
 
+HISTORY_MESSAGES = 6          # last 3 turns
+MAX_NEW_TOKENS_LATIN = 160
+MAX_NEW_TOKENS_SCRIPT = 256   # Telugu/Hindi script uses many more tokens
 
-# ============================================================
-# SYSTEM PROMPT
-# ============================================================
-
-MANDATORY_SYSTEM_PROMPT = (
+SYSTEM_PROMPT = (
     "You are a multilingual conversational assistant. "
     "Detect the language and writing style of every user message. "
     "Respond naturally in the same language and writing style. "
     "Do not force Hinglish unless the user is using Hinglish. "
     "Support English, Hindi, Hinglish, Telugu, and mixed-language input. "
-    "Keep responses short, relevant, natural, and conversational. "
-    "Do not give unnecessarily long answers."
+    "Keep responses short, relevant, natural, and conversational."
 )
 
 
-# ============================================================
-# LIGHTWEIGHT LANGUAGE DETECTION
-# ============================================================
-
+# ---------------- LANGUAGE DETECTION ----------------
 TELUGU_WORDS = {
-    "ante",
-    "enti",
-    "naku",
-    "naaku",
-    "cheppu",
-    "cheppandi",
-    "ela",
-    "unnaru",
-    "unnaavu",
-    "kavali",
-    "kaavali",
-    "undhi",
-    "undi",
-    "chala",
-    "chaala",
-    "meeru",
-    "chesanu",
-    "lekapothe",
-    "kadha",
-    "emi",
-    "avunu",
-    "ledu",
-    "ani",
-    "gurinchi",
-    "chesuko",
-    "cheskovali",
-    "evaru",
-    "ekkada",
-    "epudu",
-    "eppudu",
-    "bagunnara",
-    "baagunnara",
-    "bro",
-    "andi",
-    "kuda",
-    "cheyyali",
-    "telugu",
-    "ardham",
-    "ayindhi",
-    "avuthundi",
+    "ante", "enti", "naku", "naaku", "cheppu", "cheppandi", "ela", "unnaru",
+    "unnaavu", "kavali", "kaavali", "undhi", "undi", "chala", "chaala",
+    "meeru", "chesanu", "lekapothe", "kadha", "emi", "avunu", "ledu",
+    "gurinchi", "chesuko", "cheskovali", "evaru", "ekkada", "epudu",
+    "eppudu", "bagunnara", "baagunnara", "andi", "kuda", "cheyyali",
+    "ardham", "ayindhi", "avuthundi", "nenu", "nuvvu", "meku", "cheyyi",
 }
 
-
 HINDI_WORDS = {
-    "kya",
-    "hai",
-    "hain",
-    "kaise",
-    "kaisa",
-    "kaisi",
-    "batao",
-    "bataiye",
-    "mujhe",
-    "thoda",
-    "thodi",
-    "nahi",
-    "nahin",
-    "karna",
-    "karo",
-    "hota",
-    "hoti",
-    "hote",
-    "acha",
-    "achha",
-    "accha",
-    "bhai",
-    "baare",
-    "bare",
-    "mein",
-    "kuch",
-    "samjha",
-    "samjhao",
-    "kaun",
-    "kahan",
-    "kab",
-    "kyun",
-    "kyu",
-    "hoga",
-    "hogi",
-    "kar",
-    "raha",
-    "rahi",
-    "rahe",
-    "wala",
-    "wali",
-    "wale",
-    "yeh",
-    "ye",
-    "woh",
-    "wo",
-    "apka",
-    "aapka",
-    "mera",
-    "meri",
-    "tere",
-    "teri",
-    "dost",
-    "namaste",
-    "madad",
+    "kya", "hai", "hain", "kaise", "kaisa", "kaisi", "batao", "bataiye",
+    "mujhe", "thoda", "thodi", "nahi", "nahin", "karna", "karo", "hota",
+    "hoti", "hote", "acha", "achha", "accha", "bhai", "baare", "mein",
+    "kuch", "samjha", "samjhao", "kaun", "kahan", "kab", "kyun", "kyu",
+    "hoga", "hogi", "raha", "rahi", "rahe", "wali", "wale", "yeh", "woh",
+    "apka", "aapka", "mera", "meri", "tere", "teri", "dost", "namaste",
+    "madad", "aap", "tum", "main", "ke", "ka", "ki",
 }
 
 
 def detect_language_style(text: str):
-    """
-    Detect language/writing style using lightweight rules.
-    """
-
-    # Telugu script
+    # Returns (style_name, instruction, is_script)
     if re.search(r"[\u0C00-\u0C7F]", text):
-        return (
-            "Telugu script",
-            "Respond in Telugu using Telugu script."
-        )
+        return "Telugu script", "Respond in Telugu using Telugu script.", True
 
-    # Hindi Devanagari
     if re.search(r"[\u0900-\u097F]", text):
-        return (
-            "Hindi Devanagari",
-            "Respond in Hindi using Devanagari script."
-        )
+        return "Hindi Devanagari", "Respond in Hindi using Devanagari script.", True
 
-    # Romanized language detection
-    tokens = set(
-        re.findall(r"\b[a-zA-Z]+\b", text.lower())
-    )
+    tokens = set(re.findall(r"[a-zA-Z]+", text.lower()))
+    te = len(tokens & TELUGU_WORDS)
+    hi = len(tokens & HINDI_WORDS)
 
-    telugu_matches = tokens.intersection(TELUGU_WORDS)
-    hindi_matches = tokens.intersection(HINDI_WORDS)
-
-    # Romanized Telugu
-    if (
-        len(telugu_matches) > 0
-        and len(telugu_matches) >= len(hindi_matches)
-    ):
+    if te > 0 and te > hi:
         return (
             "Romanized Telugu / Telugu-English",
-            "Respond naturally in Romanized Telugu or Telugu-English."
+            "Respond naturally in Romanized Telugu (Telugu written in English letters).",
+            False,
         )
-
-    # Hinglish
-    if len(hindi_matches) > 0:
+    if hi > 0:
         return (
             "Hinglish (Hindi-English mix)",
-            "Respond naturally in Romanized Hinglish."
+            "Respond naturally in Romanized Hinglish.",
+            False,
         )
-
-    # Default
-    return (
-        "English",
-        "Respond naturally in English."
-    )
+    return "English", "Respond naturally in English.", False
 
 
-# ============================================================
-# ADAPTER PATH
-# ============================================================
-
+# ---------------- ADAPTER PATH ----------------
 def resolve_adapter_path():
-
     for path in CANDIDATE_ADAPTER_PATHS:
-
-        if not path.exists():
-            continue
-
-        safetensors_file = path / "adapter_model.safetensors"
-        bin_file = path / "adapter_model.bin"
-        config_file = path / "adapter_config.json"
-
-        if (
-            safetensors_file.is_file()
-            or bin_file.is_file()
-            or config_file.is_file()
-        ):
+        if path.exists() and (path / "adapter_config.json").is_file():
             return path
 
-    # Recursive fallback search
     search_dir = PROJECT_DIR / "models" / "qwen25_3b_cpt"
-
     if search_dir.exists():
-
         for config in search_dir.rglob("adapter_config.json"):
             return config.parent
-
     return None
 
 
-# ============================================================
-# MODEL LOADING
-# ============================================================
-
+# ---------------- MODEL LOADING ----------------
 def load_chatbot_model():
-
     adapter_path = resolve_adapter_path()
-
     if adapter_path is None:
         raise FileNotFoundError(
-            "\nCould not locate Qwen2.5-3B CPT/QLoRA adapter.\n"
-            f"Expected under:\n"
-            f"{PROJECT_DIR / 'models' / 'qwen25_3b_cpt'}\n"
+            "Could not find the Qwen2.5-3B CPT/QLoRA adapter under:\n"
+            f"{PROJECT_DIR / 'models' / 'qwen25_3b_cpt'}"
         )
 
-    # CUDA
     if torch.cuda.is_available():
-
         device = "cuda"
-        torch_dtype = torch.float16
-
-    # CPU fallback
+        dtype = torch.float16
+        torch.backends.cuda.matmul.allow_tf32 = True
     else:
-
         device = "cpu"
-        torch_dtype = torch.float32
+        dtype = torch.float32
 
     print("=" * 65)
     print("Initializing HinglishLLM Conversational Assistant")
     print("=" * 65)
-
-    print(f"Base Model        : {BASE_MODEL_NAME}")
-    print(f"Adapter Checkpoint: {adapter_path}")
-    print(f"Device            : {device.upper()}")
-    print(f"Dtype             : {torch_dtype}")
-
-    if torch.cuda.is_available():
-
-        try:
-            gpu_name = torch.cuda.get_device_name(0)
-            print(f"GPU               : {gpu_name}")
-        except Exception:
-            pass
-
+    print(f"Base Model : {BASE_MODEL_NAME}")
+    print(f"Adapter    : {adapter_path}")
+    print(f"Device     : {device.upper()}  |  Dtype: {dtype}")
+    if device == "cuda":
+        print(f"GPU        : {torch.cuda.get_device_name(0)}")
     print("=" * 65)
 
-    # Tokenizer
     print("Loading tokenizer...", end="", flush=True)
-
-    tokenizer = AutoTokenizer.from_pretrained(
-        BASE_MODEL_NAME
-    )
-
+    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_NAME)
     print(" [Done]")
 
-    # Base model
     print("Loading base model...", end="", flush=True)
-
     base_model = AutoModelForCausalLM.from_pretrained(
         BASE_MODEL_NAME,
-        torch_dtype=torch_dtype,
+        torch_dtype=dtype,
         low_cpu_mem_usage=True,
-    )
-
+    ).to(device)
     print(" [Done]")
 
-    # Adapter
-    print("Loading CPT/QLoRA adapter...", end="", flush=True)
-
-    model = PeftModel.from_pretrained(
-        base_model,
-        str(adapter_path)
-    )
-
-    model.to(device)
+    print("Loading + merging adapter...", end="", flush=True)
+    model = PeftModel.from_pretrained(base_model, str(adapter_path))
+    model = model.merge_and_unload()   # merge LoRA into base = faster inference
     model.eval()
-
+    model.config.use_cache = True
     print(" [Done]")
 
-    # Ensure cache is enabled
-    if hasattr(model.config, "use_cache"):
-        model.config.use_cache = True
+    # Warm-up so the first real reply isn't slow
+    try:
+        warm = tokenizer("Hi", return_tensors="pt").to(device)
+        with torch.inference_mode():
+            model.generate(**warm, max_new_tokens=2, do_sample=False)
+    except Exception:
+        pass
 
     print("=" * 65)
-    print("SYSTEM READY")
-    print("Type your message and press Enter.")
-    print("Type 'exit', 'quit', or 'bye' to stop.")
+    print("SYSTEM READY  (type 'exit', 'quit' or 'bye' to stop)")
     print("=" * 65)
+    return tokenizer, model, device
 
-    return tokenizer, model, device, adapter_path
 
-
-# ============================================================
-# RESPONSE GENERATION
-# ============================================================
-
-def generate_response(
-    tokenizer,
-    model,
-    device,
-    history,
-    user_input: str
-):
-
-    # Detect style
-    detected_style, style_instruction = (
-        detect_language_style(user_input)
-    )
-
-    # System instruction
-    system_content = (
-        f"{MANDATORY_SYSTEM_PROMPT}\n"
-        f"User language/style: {detected_style}\n"
-        f"Instruction: {style_instruction}"
-    )
-
-    # --------------------------------------------------------
-    # KEEP ONLY RECENT HISTORY
-    # --------------------------------------------------------
-    #
-    # This prevents prompts from becoming larger and slower
-    # after many conversation turns.
-    #
-    recent_history = history[-4:]
+# ---------------- GENERATION ----------------
+def generate_response(tokenizer, model, device, history, user_input, stream=False):
+    style, instruction, is_script = detect_language_style(user_input)
 
     messages = [
         {
             "role": "system",
-            "content": system_content
+            "content": (
+                f"{SYSTEM_PROMPT}\n"
+                f"User language/style: {style}\n"
+                f"Instruction: {instruction}"
+            ),
         }
     ]
-
-    for turn in recent_history:
-
-        messages.append(
-            {
-                "role": turn["role"],
-                "content": turn["content"]
-            }
-        )
-
-    messages.append(
-        {
-            "role": "user",
-            "content": user_input
-        }
-    )
-
-    # --------------------------------------------------------
-    # CHAT TEMPLATE
-    # --------------------------------------------------------
+    messages.extend(history[-HISTORY_MESSAGES:])
+    messages.append({"role": "user", "content": user_input})
 
     inputs = tokenizer.apply_chat_template(
         messages,
@@ -441,317 +197,124 @@ def generate_response(
         return_tensors="pt",
         return_dict=True,
     )
+    inputs = {k: v.to(device) for k, v in inputs.items()}
 
-    # Move tensors to GPU / CPU
-    inputs = {
-        key: value.to(device)
-        for key, value in inputs.items()
-    }
-
-    # --------------------------------------------------------
-    # FAST GENERATION
-    # --------------------------------------------------------
+    streamer = (
+        TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
+        if stream
+        else None
+    )
 
     with torch.inference_mode():
-
         outputs = model.generate(
             **inputs,
-
-            # Short answers = faster response
-            max_new_tokens=48,
-
-            # Greedy decoding = faster than sampling
+            max_new_tokens=MAX_NEW_TOKENS_SCRIPT if is_script else MAX_NEW_TOKENS_LATIN,
             do_sample=False,
-
-            # KV cache = faster autoregressive decoding
+            num_beams=1,
             use_cache=True,
-
-            # Stop at EOS
+            repetition_penalty=1.08,
             eos_token_id=tokenizer.eos_token_id,
             pad_token_id=tokenizer.eos_token_id,
-
-            # No beam search
-            num_beams=1,
+            streamer=streamer,
         )
 
-    # --------------------------------------------------------
-    # REMOVE PROMPT TOKENS
-    # --------------------------------------------------------
-
-    prompt_length = inputs["input_ids"].shape[-1]
-
-    response_tokens = outputs[0][prompt_length:]
-
-    bot_response = tokenizer.decode(
-        response_tokens,
-        skip_special_tokens=True
-    ).strip()
-
-    return bot_response, detected_style
+    prompt_len = inputs["input_ids"].shape[-1]
+    reply = tokenizer.decode(outputs[0][prompt_len:], skip_special_tokens=True).strip()
+    return reply, style
 
 
-# ============================================================
-# AUTOMATED TEST SUITE
-# ============================================================
-
-def run_automated_test_suite(
-    tokenizer,
-    model,
-    device
-):
-
-    test_cases = [
-
-        (
-            "Hi",
-            "English"
-        ),
-
-        (
-            "What is Python?",
-            "English"
-        ),
-
-        (
-            "AI kya hai bro?",
-            "Hinglish (Hindi-English mix)"
-        ),
-
-        (
-            "Mujhe machine learning ke baare mein batao",
-            "Hinglish (Hindi-English mix)"
-        ),
-
-        (
-            "python ante enti?",
-            "Romanized Telugu / Telugu-English"
-        ),
-
-        (
-            "naku Python gurinchi cheppu",
-            "Romanized Telugu / Telugu-English"
-        ),
-
-        (
-            "आप कैसे हैं?",
-            "Hindi Devanagari"
-        ),
-
-        (
-            "మీరు ఎలా ఉన్నారు?",
-            "Telugu script"
-        ),
+# ---------------- TEST SUITE ----------------
+def run_automated_test_suite(tokenizer, model, device):
+    tests = [
+        ("Hi", "English"),
+        ("What is Python?", "English"),
+        ("AI kya hai bro?", "Hinglish (Hindi-English mix)"),
+        ("Mujhe machine learning ke baare mein batao", "Hinglish (Hindi-English mix)"),
+        ("python ante enti?", "Romanized Telugu / Telugu-English"),
+        ("naku Python gurinchi cheppu", "Romanized Telugu / Telugu-English"),
+        ("आप कैसे हैं?", "Hindi Devanagari"),
+        ("మీరు ఎలా ఉన్నారు?", "Telugu script"),
     ]
 
     print("\n" + "=" * 65)
     print("RUNNING CHATBOT VALIDATION")
     print("=" * 65)
 
-    test_history = []
-
-    for index, (prompt, expected_style) in enumerate(
-        test_cases,
-        1
-    ):
-
-        print(
-            f"\n[Test {index}/{len(test_cases)}]"
-        )
-
+    history, passed = [], 0
+    for i, (prompt, expected) in enumerate(tests, 1):
+        print(f"\n[Test {i}/{len(tests)}]")
         print(f"Input         : {prompt}")
-        print(f"Expected Style: {expected_style}")
-
+        print(f"Expected Style: {expected}")
         try:
-
-            response, detected = generate_response(
-                tokenizer,
-                model,
-                device,
-                test_history,
-                prompt
+            reply, detected = generate_response(
+                tokenizer, model, device, history, prompt
             )
-
-            print(f"Detected Style: {detected}")
-            print(f"Bot Response  : {response}")
-
-            test_history.append(
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            )
-
-            test_history.append(
-                {
-                    "role": "assistant",
-                    "content": response
-                }
-            )
-
-        except Exception as error:
-
-            print("\n================ ERROR ================")
-            print(
-                f"Error type   : {type(error).__name__}"
-            )
-            print(
-                f"Error message: {error}"
-            )
-
+            ok = detected == expected
+            passed += ok
+            print(f"Detected Style: {detected}  {'OK' if ok else 'MISMATCH'}")
+            print(f"Bot Response  : {reply}")
+            if reply:
+                history += [
+                    {"role": "user", "content": prompt},
+                    {"role": "assistant", "content": reply},
+                ]
+        except Exception as e:
+            print(f"ERROR {type(e).__name__}: {e}")
             traceback.print_exc()
 
-            print("========================================")
-
     print("\n" + "=" * 65)
-    print("VALIDATION COMPLETED")
+    print(f"VALIDATION COMPLETED  |  Language detection: {passed}/{len(tests)}")
     print("=" * 65)
 
 
-# ============================================================
-# MAIN
-# ============================================================
-
+# ---------------- MAIN ----------------
 def main():
-
-    # --------------------------------------------------------
-    # LOAD MODEL
-    # --------------------------------------------------------
-
     try:
-
-        tokenizer, model, device, adapter_path = (
-            load_chatbot_model()
-        )
-
-    except Exception as error:
-
-        print("\n================ ERROR ================")
-
-        print(
-            f"Error type   : {type(error).__name__}"
-        )
-
-        print(
-            f"Error message: {error}"
-        )
-
+        tokenizer, model, device = load_chatbot_model()
+    except Exception as e:
+        print(f"\nERROR {type(e).__name__}: {e}")
         traceback.print_exc()
-
-        print("========================================")
-
         sys.exit(1)
 
-    # --------------------------------------------------------
-    # TEST MODE
-    # --------------------------------------------------------
-
     if "--test" in sys.argv:
-
-        run_automated_test_suite(
-            tokenizer,
-            model,
-            device
-        )
-
+        run_automated_test_suite(tokenizer, model, device)
         return
 
-    # --------------------------------------------------------
-    # INTERACTIVE CHAT
-    # --------------------------------------------------------
-
     history = []
-
     while True:
-
         try:
-
             user_input = input("You: ").strip()
-
             if not user_input:
                 continue
 
-            # Exit
-            if user_input.lower() in {
-                "exit",
-                "quit",
-                "bye"
-            }:
-
-                print(
-                    "Bot: Goodbye! Have a great day ahead."
-                )
-
+            if user_input.lower() in {"exit", "quit", "bye"}:
+                print("Bot: Goodbye! Have a great day ahead.")
                 break
 
-            # Generate
-            bot_response, detected_style = (
-                generate_response(
-                    tokenizer,
-                    model,
-                    device,
-                    history,
-                    user_input
-                )
+            print("Bot: ", end="", flush=True)
+            reply, _ = generate_response(
+                tokenizer, model, device, history, user_input, stream=True
             )
+            print()
 
-            print(
-                f"Bot: {bot_response}\n"
-            )
+            if reply:
+                history += [
+                    {"role": "user", "content": user_input},
+                    {"role": "assistant", "content": reply},
+                ]
 
-            # Save history
-            history.append(
-                {
-                    "role": "user",
-                    "content": user_input
-                }
-            )
-
-            history.append(
-                {
-                    "role": "assistant",
-                    "content": bot_response
-                }
-            )
-
-        except (
-            KeyboardInterrupt,
-            EOFError
-        ):
-
-            print(
-                "\nBot: Session ended. Goodbye!"
-            )
-
+        except (KeyboardInterrupt, EOFError):
+            print("\nBot: Session ended. Goodbye!")
             break
-
-        except Exception as error:
-
-            print(
-                "\n================ ERROR ================"
-            )
-
-            print(
-                f"Error type   : {type(error).__name__}"
-            )
-
-            print(
-                f"Error message: {error}"
-            )
-
+        except torch.cuda.OutOfMemoryError:
+            torch.cuda.empty_cache()
+            history.clear()
+            print("\nGPU out of memory. History cleared, try again.\n")
+        except Exception as e:
+            print(f"\nERROR {type(e).__name__}: {e}")
             traceback.print_exc()
+            print("You can continue chatting or type 'exit'.\n")
 
-            print(
-                "========================================"
-            )
-
-            print(
-                "You can continue chatting or type 'exit'.\n"
-            )
-
-
-# ============================================================
-# ENTRY POINT
-# ============================================================
 
 if __name__ == "__main__":
     main()
